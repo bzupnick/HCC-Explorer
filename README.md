@@ -85,12 +85,20 @@ code-description files. It's the only generated file here; it lives in
 regenerating it needs the large CMS description zips that aren't kept in the
 repo.
 
-## Rebuild
+## Development
+
+**Generated files — never edit directly.** `index.html` and everything in
+`graphs/` are build outputs. To change the UI, edit `template.html`; to change
+data handling, edit `scripts/parse_cms.py`. Then rebuild (stdlib only, no
+deps):
 
 ```sh
 python3 scripts/parse_cms.py   # source-data -> graphs/<model>-hcc-graph.json
 python3 scripts/build.py       # graphs + template.html -> index.html
 ```
+
+`build.py` imports from `parse_cms.py` — the two must stay in the same
+directory.
 
 CI does the same on every push: `.github/workflows/build.yml` rebuilds from
 `source-data/` and sanity-checks the output; on pushes to `main` it also

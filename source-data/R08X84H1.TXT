@@ -1,0 +1,74 @@
+%MACRO R08X84H1; 
+%***********************************************************************
+************************************************************************
+
+  MACRO NAME:    R08X84H1
+  PURPOSE:       RXHCC hierarchies for RXHCCs that are included
+                 in software
+  COMMENT:       it is assumed that:
+                  -MAX number of RXCCs are placed into global macro 
+                   variable N_RX in the main macro
+                  -the following arrays are set in the main macro
+                   ARRAY R(&N_RX)  RXCC1-RXCC&N_RX
+                   ARRAY RX(&N_RX) RXHCC1-RXHCC&N_RX
+                  -format ICD to RXCC creates only 84 out of &N_RX CMS
+                   RXCCs
+
+***********************************************************************;
+ %* set to 0 RXHCCs in HIER parameter - taken from software hierarchy 
+    variable;
+ %MACRO SET0( CC=, HIER= );  
+     %LET K=1;                                                                                                                          
+     IF RXHCC&CC=1 THEN DO;                                                                                                                
+        %DO %UNTIL(%SCAN(&HIER,&K)=);                                                                                                   
+          RXHCC%SCAN(&HIER,&K) = 0;                                                                                                     
+          %LET K=%EVAL(&K+1);                                                                                                           
+        %END;              
+    END;        
+ %MEND SET0; 
+ 
+ 
+ %*to copy RXCC into RXHCC;
+  DO J=1 TO &N_RX;
+     RX(J)=R(J);
+  END;
+
+ %*imposing hierarchies;
+ /*Neoplasm 1 */   %SET0(CC=15    , HIER=%STR(17 ,18 ,19 ,20 ,21 ,22 ));
+ /*Neoplasm 2 */   %SET0(CC=16    , HIER=%STR(17 ,18 ,19 ,20 ,21 ,22 ));
+ /*Neoplasm 3 */   %SET0(CC=17    , HIER=%STR(18 ,19 ,20 ,21 ,22 ));
+ /*Neoplasm 4 */   %SET0(CC=18    , HIER=%STR(19 ,20 ,21 ,22 ));
+ /*Neoplasm 5 */   %SET0(CC=19    , HIER=%STR(20 ,21 ,22 ));
+ /*Neoplasm 6 */   %SET0(CC=20    , HIER=%STR(21 ,22 ));
+ /*Neoplasm 7 */   %SET0(CC=21    , HIER=%STR(22 ));
+ /*Diabetes 1 */   %SET0(CC=30    , HIER=%STR(31 ));
+ /*Metabolic 1 */  %SET0(CC=40    , HIER=%STR(43 ));
+ /*Metabolic 2 */  %SET0(CC=41    , HIER=%STR(43 ));
+ /*Metabolic 3 */  %SET0(CC=42    , HIER=%STR(43 ));
+ /*Liver 1 */      %SET0(CC=54    , HIER=%STR(55 ));
+ /*GI 1 */         %SET0(CC=65    , HIER=%STR(66 ));
+ /*MSK 3 */        %SET0(CC=81    , HIER=%STR(83 ,84 ,316 ));
+ /*MSK 4 */        %SET0(CC=82    , HIER=%STR(83 ,84 ));
+ /*MSK 5 */        %SET0(CC=83    , HIER=%STR(84 ));
+ /*MSK 6 */        %SET0(CC=84    , HIER=%STR(317 ));
+ /*Cognitive 2 */  %SET0(CC=111   , HIER=%STR(112 ));
+ /*Psychiatric 1 */%SET0(CC=130   , HIER=%STR(131 ,132 ,133 ));
+ /*Psychiatric 2 */%SET0(CC=131   , HIER=%STR(132 ,133 ));
+ /*Psychiatric 3 */%SET0(CC=132   , HIER=%STR(133 ));
+ /*DD 1 */         %SET0(CC=146   , HIER=%STR(147 ,148 ));
+ /*DD 2 */         %SET0(CC=147   , HIER=%STR(148 ));
+ /*Neuro 6 */      %SET0(CC=157   , HIER=%STR(158 ));
+ /*Neuro 12 */     %SET0(CC=163   , HIER=%STR(164 ));
+ /*Heart 1 */      %SET0(CC=183   , HIER=%STR(184 ,186 ,187 ));
+ /*Heart 2 */      %SET0(CC=184   , HIER=%STR(186 ,187 ));
+ /*Heart 3 */      %SET0(CC=186   , HIER=%STR(187 ));
+ /*Lung 1 */       %SET0(CC=225   , HIER=%STR(229 ));
+ /*Lung 2 */       %SET0(CC=226   , HIER=%STR(227 ,229 ));
+ /*Lung 3 */       %SET0(CC=227   , HIER=%STR(229 ));
+ /*Lung 4 */       %SET0(CC=228   , HIER=%STR(229 ));
+ /*Eye 5 */        %SET0(CC=243   , HIER=%STR(244 ));
+ /*Kidney 1 */     %SET0(CC=260   , HIER=%STR(261 ,262 ,263 ,396 ));
+ /*Kidney 2 */     %SET0(CC=261   , HIER=%STR(262 ,263 ));
+ /*Kidney 3 */     %SET0(CC=262   , HIER=%STR(263 ));
+
+%MEND R08X84H1;

@@ -1,0 +1,829 @@
+_NAME_,_LABEL_,COL1
+Rx_CE_NoLowAged_F65_69,"Rx_CE_NoLowAged_W65_69 -- Female, Age 65 - 69",0.122
+Rx_CE_NoLowAged_F70_74,"Rx_CE_NoLowAged_W70_74 -- Female, Age 70 - 74",0.035
+Rx_CE_NoLowAged_F75_79,"Rx_CE_NoLowAged_W75_79 -- Female, Age 75 - 79",0.035
+Rx_CE_NoLowAged_F80_84,"Rx_CE_NoLowAged_W80_84 -- Female, Age 80 - 84",0.035
+Rx_CE_NoLowAged_F85_89,"Rx_CE_NoLowAged_W85_89 -- Female, Age 85 - 89",0.035
+Rx_CE_NoLowAged_F90_94,"Rx_CE_NoLowAged_W90_94 -- Female, Age 90 - 94",0.035
+Rx_CE_NoLowAged_F95_GT,"Rx_CE_NoLowAged_W95_GT -- Female, Age 95 -",0.035
+Rx_CE_NoLowAged_M65_69,"Rx_CE_NoLowAged_M65_69 -- Male,   Age 65 - 69",0.175
+Rx_CE_NoLowAged_M70_74,"Rx_CE_NoLowAged_M70_74 -- Male,   Age 70 - 74",0.146
+Rx_CE_NoLowAged_M75_79,"Rx_CE_NoLowAged_M75_79 -- Male,   Age 75 - 79",0.049
+Rx_CE_NoLowAged_M80_84,"Rx_CE_NoLowAged_M80_84 -- Male,   Age 80 - 84",0.049
+Rx_CE_NoLowAged_M85_89,"Rx_CE_NoLowAged_M85_89 -- Male,   Age 85 - 89",0.049
+Rx_CE_NoLowAged_M90_94,"Rx_CE_NoLowAged_M90_94 -- Male,   Age 90 - 94",0.049
+Rx_CE_NoLowAged_M95_GT,"Rx_CE_NoLowAged_M95_GT -- Male,   Age 95 -",0.049
+Rx_CE_NoLowAged_F65OD,"Rx_CE_NoLowAged_F65OD -- Female, Age >= 65, originally entitled due to disability",0.042
+Rx_CE_NoLowAged_M65OD,"Rx_CE_NoLowAged_M65OD -- Male,   Age >= 65, originally entitled due to disability",0
+Rx_CE_NoLowAged_RXHCC1,Rx_CE_NoLowAged_RXHCC1 -- HIV/AIDS,8.325
+Rx_CE_NoLowAged_RXHCC5,Rx_CE_NoLowAged_RXHCC5 -- Opportunistic Infections,0.654
+Rx_CE_NoLowAged_RXHCC15,Rx_CE_NoLowAged_RXHCC15 -- Chronic Myeloid Leukemia,4.907
+Rx_CE_NoLowAged_RXHCC16,Rx_CE_NoLowAged_RXHCC16 -- Multiple Myeloma and Other Hematologic Cancers,11.15
+Rx_CE_NoLowAged_RXHCC17,Rx_CE_NoLowAged_RXHCC17 -- Secondary Cancer of Bone and Kidney,4.907
+Rx_CE_NoLowAged_RXHCC18,"Rx_CE_NoLowAged_RXHCC18 -- Secondary Cancer of Lung, Liver, Brain, and Other Sites",2.456
+Rx_CE_NoLowAged_RXHCC19,Rx_CE_NoLowAged_RXHCC19 -- Leukemias and Other Hematologic Cancers,2.456
+Rx_CE_NoLowAged_RXHCC20,"Rx_CE_NoLowAged_RXHCC20 -- Lung, Kidney, and Other Cancers; Secondary Cancer of Lymph Nodes and Other Sites",0.595
+Rx_CE_NoLowAged_RXHCC21,Rx_CE_NoLowAged_RXHCC21 -- Lymphomas and Other Hematologic Cancers,0.595
+Rx_CE_NoLowAged_RXHCC22,"Rx_CE_NoLowAged_RXHCC22 -- Prostate, Breast, Bladder, and Other Cancers and Tumors",0.123
+Rx_CE_NoLowAged_RXHCC30,Rx_CE_NoLowAged_RXHCC30 -- Diabetes with Complications,0.567
+Rx_CE_NoLowAged_RXHCC31,Rx_CE_NoLowAged_RXHCC31 -- Diabetes without Complication,0.248
+Rx_CE_NoLowAged_RXHCC40,Rx_CE_NoLowAged_RXHCC40 -- Alpha-1-Antitrypsin Deficiency,2.571
+Rx_CE_NoLowAged_RXHCC41,Rx_CE_NoLowAged_RXHCC41 -- Lysosomal Storage Disorders,4.668
+Rx_CE_NoLowAged_RXHCC42,Rx_CE_NoLowAged_RXHCC42 -- Acromegaly and Other Endocrine and Metabolic Disorders,2.401
+Rx_CE_NoLowAged_RXHCC43,"Rx_CE_NoLowAged_RXHCC43 -- Pituitary, Adrenal Gland, and Other Endocrine and Metabolic Disorders",0.038
+Rx_CE_NoLowAged_RXHCC44,Rx_CE_NoLowAged_RXHCC44 -- Thyroid Disorders,0.068
+Rx_CE_NoLowAged_RXHCC47,Rx_CE_NoLowAged_RXHCC47 -- Disorders of Lipoid Metabolism,0
+Rx_CE_NoLowAged_RXHCC54,Rx_CE_NoLowAged_RXHCC54 -- Chronic Viral Hepatitis C,0.253
+Rx_CE_NoLowAged_RXHCC55,Rx_CE_NoLowAged_RXHCC55 -- Acute or Unspecified Viral Hepatitis C,0.253
+Rx_CE_NoLowAged_RXHCC56,Rx_CE_NoLowAged_RXHCC56 -- Chronic Viral Hepatitis B and Other Specified Chronic Viral Hepatitis,0.264
+Rx_CE_NoLowAged_RXHCC59,Rx_CE_NoLowAged_RXHCC59 -- Primary Biliary Cirrhosis,1.003
+Rx_CE_NoLowAged_RXHCC65,Rx_CE_NoLowAged_RXHCC65 -- Chronic Pancreatitis,0.375
+Rx_CE_NoLowAged_RXHCC66,"Rx_CE_NoLowAged_RXHCC66 -- Pancreatic Disorders and Intestinal Malabsorption, Except Pancreatitis",0.279
+Rx_CE_NoLowAged_RXHCC67,Rx_CE_NoLowAged_RXHCC67 -- Inflammatory Bowel Disease,0.425
+Rx_CE_NoLowAged_RXHCC80,Rx_CE_NoLowAged_RXHCC80 -- Aseptic Necrosis of Bone,0.17
+Rx_CE_NoLowAged_RXHCC81,Rx_CE_NoLowAged_RXHCC81 -- Psoriatic Arthropathy,0.755
+Rx_CE_NoLowAged_RXHCC82,Rx_CE_NoLowAged_RXHCC82 -- Systemic Sclerosis,1.282
+Rx_CE_NoLowAged_RXHCC83,Rx_CE_NoLowAged_RXHCC83 -- Rheumatoid Arthritis and Other Inflammatory Polyarthropathy,0.161
+Rx_CE_NoLowAged_RXHCC84,Rx_CE_NoLowAged_RXHCC84 -- Systemic Lupus Erythematosus and Other Systemic Connective Tissue Disorders,0.136
+Rx_CE_NoLowAged_RXHCC87,"Rx_CE_NoLowAged_RXHCC87 -- Osteoporosis, Vertebral and Pathological Fractures",0.044
+Rx_CE_NoLowAged_RXHCC95,Rx_CE_NoLowAged_RXHCC95 -- Sickle Cell Anemia,0
+Rx_CE_NoLowAged_RXHCC96,"Rx_CE_NoLowAged_RXHCC96 -- Acquired Hemolytic, Aplastic, and Sideroblastic Anemias",0.88
+Rx_CE_NoLowAged_RXHCC98,Rx_CE_NoLowAged_RXHCC98 -- Hereditary Angioedema and Other Defects in the Complement System,9.161
+Rx_CE_NoLowAged_RXHCC99,Rx_CE_NoLowAged_RXHCC99 -- Immune Disorders,0.449
+Rx_CE_NoLowAged_RXHCC100,Rx_CE_NoLowAged_RXHCC100 -- Immune Thrombocytopenic Purpura,0.478
+Rx_CE_NoLowAged_RXHCC111,Rx_CE_NoLowAged_RXHCC111 -- Alzheimer's Disease,0
+Rx_CE_NoLowAged_RXHCC112,"Rx_CE_NoLowAged_RXHCC112 -- Dementia, Except Alzheimer's Disease",0
+Rx_CE_NoLowAged_RXHCC130,Rx_CE_NoLowAged_RXHCC130 -- Schizophrenia and Other Psychosis,0.261
+Rx_CE_NoLowAged_RXHCC131,Rx_CE_NoLowAged_RXHCC131 -- Bipolar Disorders,0.254
+Rx_CE_NoLowAged_RXHCC132,Rx_CE_NoLowAged_RXHCC132 -- Depression,0.04
+Rx_CE_NoLowAged_RXHCC133,Rx_CE_NoLowAged_RXHCC133 -- Anxiety and Other Psychiatric Disorders,0.032
+Rx_CE_NoLowAged_RXHCC146,Rx_CE_NoLowAged_RXHCC146 -- Profound or Severe Intellectual Disability/Developmental Disorder,0.525
+Rx_CE_NoLowAged_RXHCC147,Rx_CE_NoLowAged_RXHCC147 -- Moderate Intellectual Disability/Developmental Disorder,0.525
+Rx_CE_NoLowAged_RXHCC148,Rx_CE_NoLowAged_RXHCC148 -- Mild or Unspecified Intellectual Disability/Developmental Disorder,0.525
+Rx_CE_NoLowAged_RXHCC153,Rx_CE_NoLowAged_RXHCC153 -- Myasthenia Gravis and Other Myoneural Disorders,1.972
+Rx_CE_NoLowAged_RXHCC154,Rx_CE_NoLowAged_RXHCC154 -- Amyotrophic Lateral Sclerosis and Other Motor Neuron Disease,4.754
+Rx_CE_NoLowAged_RXHCC155,Rx_CE_NoLowAged_RXHCC155 -- Spinal Cord Disorders,0.057
+Rx_CE_NoLowAged_RXHCC157,Rx_CE_NoLowAged_RXHCC157 -- Chronic Inflammatory Demyelinating Polyneuritis ,4.666
+Rx_CE_NoLowAged_RXHCC158,Rx_CE_NoLowAged_RXHCC158 -- Inflammatory and Toxic Neuropathy,0
+Rx_CE_NoLowAged_RXHCC159,Rx_CE_NoLowAged_RXHCC159 -- Multiple Sclerosis,1.113
+Rx_CE_NoLowAged_RXHCC160,Rx_CE_NoLowAged_RXHCC160 -- Huntington Disease,1.896
+Rx_CE_NoLowAged_RXHCC161,Rx_CE_NoLowAged_RXHCC161 -- Parkinson Disease,0.48
+Rx_CE_NoLowAged_RXHCC163,Rx_CE_NoLowAged_RXHCC163 -- Intractable Epilepsy,0.12
+Rx_CE_NoLowAged_RXHCC164,"Rx_CE_NoLowAged_RXHCC164 -- Epilepsy and Other Seizure Disorders, Except Intractable Epilepsy",0
+Rx_CE_NoLowAged_RXHCC166,Rx_CE_NoLowAged_RXHCC166 -- Migraine Headaches,0.118
+Rx_CE_NoLowAged_RXHCC168,Rx_CE_NoLowAged_RXHCC168 -- Trigeminal and Postherpetic Neuralgia,0.063
+Rx_CE_NoLowAged_RXHCC183,Rx_CE_NoLowAged_RXHCC183 -- Pulmonary Arterial Hypertension,1.832
+Rx_CE_NoLowAged_RXHCC184,"Rx_CE_NoLowAged_RXHCC184 -- Pulmonary Hypertension, Except Arterial, and Other Pulmonary Heart Disease",0.177
+Rx_CE_NoLowAged_RXHCC186,Rx_CE_NoLowAged_RXHCC186 -- Heart Failure,0.135
+Rx_CE_NoLowAged_RXHCC187,Rx_CE_NoLowAged_RXHCC187 -- Hypertension,0.046
+Rx_CE_NoLowAged_RXHCC188,Rx_CE_NoLowAged_RXHCC188 -- Coronary Artery Disease,0.061
+Rx_CE_NoLowAged_RXHCC191,Rx_CE_NoLowAged_RXHCC191 -- Ventricular Septal Defect and Major Congenital Heart Disorders,0.185
+Rx_CE_NoLowAged_RXHCC193,Rx_CE_NoLowAged_RXHCC193 -- Atrial Arrhythmias,0.214
+Rx_CE_NoLowAged_RXHCC207,Rx_CE_NoLowAged_RXHCC207 -- Spastic Hemiplegia,0
+Rx_CE_NoLowAged_RXHCC215,Rx_CE_NoLowAged_RXHCC215 -- Venous Thromboembolism,0.219
+Rx_CE_NoLowAged_RXHCC225,Rx_CE_NoLowAged_RXHCC225 -- Cystic Fibrosis,10.36
+Rx_CE_NoLowAged_RXHCC226,Rx_CE_NoLowAged_RXHCC226 -- Idiopathic Pulmonary Fibrosis and Systemic Sclerosis with Lung Involvement,3.683
+Rx_CE_NoLowAged_RXHCC227,"Rx_CE_NoLowAged_RXHCC227 -- Pulmonary Fibrosis, Except Idiopathic",0.335
+Rx_CE_NoLowAged_RXHCC228,Rx_CE_NoLowAged_RXHCC228 -- Severe Persistent Asthma,0.978
+Rx_CE_NoLowAged_RXHCC229,"Rx_CE_NoLowAged_RXHCC229 -- Chronic Obstructive Pulmonary Disease, Bronchiectasis, and Other Asthma",0.214
+Rx_CE_NoLowAged_RXHCC243,"Rx_CE_NoLowAged_RXHCC243 -- Glaucoma, Open-Angle or Moderate/Severe Stage",0.136
+Rx_CE_NoLowAged_RXHCC244,Rx_CE_NoLowAged_RXHCC244 -- Other Non-Acute Glaucoma,0
+Rx_CE_NoLowAged_RXHCC260,Rx_CE_NoLowAged_RXHCC260 -- Kidney Transplant Status,0
+Rx_CE_NoLowAged_RXHCC261,"Rx_CE_NoLowAged_RXHCC261 -- Dialysis Status, Including End Stage Renal Disease",0.009
+Rx_CE_NoLowAged_RXHCC262,Rx_CE_NoLowAged_RXHCC262 -- Chronic Kidney Disease Stage 5,0.009
+Rx_CE_NoLowAged_RXHCC263,Rx_CE_NoLowAged_RXHCC263 -- Chronic Kidney Disease Stage 4,0.009
+Rx_CE_NoLowAged_RXHCC311,"Rx_CE_NoLowAged_RXHCC311 -- Chronic Ulcer of Skin, Except Pressure",0.135
+Rx_CE_NoLowAged_RXHCC314,"Rx_CE_NoLowAged_RXHCC314 -- Pemphigus, Pemphigoid, and Other Bullous Skin Disorders",0.28
+Rx_CE_NoLowAged_RXHCC316,"Rx_CE_NoLowAged_RXHCC316 -- Psoriasis, Except with Arthropathy",0.198
+Rx_CE_NoLowAged_RXHCC317,Rx_CE_NoLowAged_RXHCC317 -- Discoid Lupus Erythematosus,0.076
+Rx_CE_NoLowAged_RXHCC355,Rx_CE_NoLowAged_RXHCC355 -- Narcolepsy and Cataplexy,0.922
+Rx_CE_NoLowAged_RXHCC395,"Rx_CE_NoLowAged_RXHCC395 -- Stem Cell, Including Bone Marrow, Transplant Status/Complications",3.425
+Rx_CE_NoLowAged_RXHCC396,"Rx_CE_NoLowAged_RXHCC396 -- Heart, Lung, Liver, Intestine, or Pancreas Transplant Status",0
+Rx_CE_NoLowNoAged_F0_34,"Rx_CE_NoLowNoAged_W0_34 -- Female, Age  0 - 34",0.328
+Rx_CE_NoLowNoAged_F35_44,"Rx_CE_NoLowNoAged_W35_44 -- Female, Age 35 - 44",0.363
+Rx_CE_NoLowNoAged_F45_54,"Rx_CE_NoLowNoAged_W45_54 -- Female, Age 45 - 54",0.334
+Rx_CE_NoLowNoAged_F55_59,"Rx_CE_NoLowNoAged_W55_59 -- Female, Age 55 - 59",0.242
+Rx_CE_NoLowNoAged_F60_64,"Rx_CE_NoLowNoAged_W60_64 -- Female, Age 60 - 64",0.165
+Rx_CE_NoLowNoAged_M0_34,"Rx_CE_NoLowNoAged_M0_34 -- Male,   Age  0 - 34",0.181
+Rx_CE_NoLowNoAged_M35_44,"Rx_CE_NoLowNoAged_M35_44 -- Male,   Age 35 - 44",0.241
+Rx_CE_NoLowNoAged_M45_54,"Rx_CE_NoLowNoAged_M45_54 -- Male,   Age 45 - 54",0.217
+Rx_CE_NoLowNoAged_M55_59,"Rx_CE_NoLowNoAged_M55_59 -- Male,   Age 55 - 59",0.194
+Rx_CE_NoLowNoAged_M60_64,"Rx_CE_NoLowNoAged_M60_64 -- Male,   Age 60 - 64",0.188
+Rx_CE_NoLowNoAged_RXHCC1,Rx_CE_NoLowNoAged_RXHCC1 -- HIV/AIDS,9.961
+Rx_CE_NoLowNoAged_RXHCC5,Rx_CE_NoLowNoAged_RXHCC5 -- Opportunistic Infections,0.564
+Rx_CE_NoLowNoAged_RXHCC15,Rx_CE_NoLowNoAged_RXHCC15 -- Chronic Myeloid Leukemia,4.016
+Rx_CE_NoLowNoAged_RXHCC16,Rx_CE_NoLowNoAged_RXHCC16 -- Multiple Myeloma and Other Hematologic Cancers,10.209
+Rx_CE_NoLowNoAged_RXHCC17,Rx_CE_NoLowNoAged_RXHCC17 -- Secondary Cancer of Bone and Kidney,4.016
+Rx_CE_NoLowNoAged_RXHCC18,"Rx_CE_NoLowNoAged_RXHCC18 -- Secondary Cancer of Lung, Liver, Brain, and Other Sites",2.192
+Rx_CE_NoLowNoAged_RXHCC19,Rx_CE_NoLowNoAged_RXHCC19 -- Leukemias and Other Hematologic Cancers,2.192
+Rx_CE_NoLowNoAged_RXHCC20,"Rx_CE_NoLowNoAged_RXHCC20 -- Lung, Kidney, and Other Cancers; Secondary Cancer of Lymph Nodes and Other Sites",0.471
+Rx_CE_NoLowNoAged_RXHCC21,Rx_CE_NoLowNoAged_RXHCC21 -- Lymphomas and Other Hematologic Cancers,0.267
+Rx_CE_NoLowNoAged_RXHCC22,"Rx_CE_NoLowNoAged_RXHCC22 -- Prostate, Breast, Bladder, and Other Cancers and Tumors",0.072
+Rx_CE_NoLowNoAged_RXHCC30,Rx_CE_NoLowNoAged_RXHCC30 -- Diabetes with Complications,0.682
+Rx_CE_NoLowNoAged_RXHCC31,Rx_CE_NoLowNoAged_RXHCC31 -- Diabetes without Complication,0.281
+Rx_CE_NoLowNoAged_RXHCC40,Rx_CE_NoLowNoAged_RXHCC40 -- Alpha-1-Antitrypsin Deficiency,6.735
+Rx_CE_NoLowNoAged_RXHCC41,Rx_CE_NoLowNoAged_RXHCC41 -- Lysosomal Storage Disorders,10.426
+Rx_CE_NoLowNoAged_RXHCC42,Rx_CE_NoLowNoAged_RXHCC42 -- Acromegaly and Other Endocrine and Metabolic Disorders,3.395
+Rx_CE_NoLowNoAged_RXHCC43,"Rx_CE_NoLowNoAged_RXHCC43 -- Pituitary, Adrenal Gland, and Other Endocrine and Metabolic Disorders",0.143
+Rx_CE_NoLowNoAged_RXHCC44,Rx_CE_NoLowNoAged_RXHCC44 -- Thyroid Disorders,0.161
+Rx_CE_NoLowNoAged_RXHCC47,Rx_CE_NoLowNoAged_RXHCC47 -- Disorders of Lipoid Metabolism,0
+Rx_CE_NoLowNoAged_RXHCC54,Rx_CE_NoLowNoAged_RXHCC54 -- Chronic Viral Hepatitis C,0.317
+Rx_CE_NoLowNoAged_RXHCC55,Rx_CE_NoLowNoAged_RXHCC55 -- Acute or Unspecified Viral Hepatitis C,0.317
+Rx_CE_NoLowNoAged_RXHCC56,Rx_CE_NoLowNoAged_RXHCC56 -- Chronic Viral Hepatitis B and Other Specified Chronic Viral Hepatitis,0.604
+Rx_CE_NoLowNoAged_RXHCC59,Rx_CE_NoLowNoAged_RXHCC59 -- Primary Biliary Cirrhosis,1.345
+Rx_CE_NoLowNoAged_RXHCC65,Rx_CE_NoLowNoAged_RXHCC65 -- Chronic Pancreatitis,0.612
+Rx_CE_NoLowNoAged_RXHCC66,"Rx_CE_NoLowNoAged_RXHCC66 -- Pancreatic Disorders and Intestinal Malabsorption, Except Pancreatitis",0.612
+Rx_CE_NoLowNoAged_RXHCC67,Rx_CE_NoLowNoAged_RXHCC67 -- Inflammatory Bowel Disease,0.6
+Rx_CE_NoLowNoAged_RXHCC80,Rx_CE_NoLowNoAged_RXHCC80 -- Aseptic Necrosis of Bone,0.244
+Rx_CE_NoLowNoAged_RXHCC81,Rx_CE_NoLowNoAged_RXHCC81 -- Psoriatic Arthropathy,0.494
+Rx_CE_NoLowNoAged_RXHCC82,Rx_CE_NoLowNoAged_RXHCC82 -- Systemic Sclerosis,1.247
+Rx_CE_NoLowNoAged_RXHCC83,Rx_CE_NoLowNoAged_RXHCC83 -- Rheumatoid Arthritis and Other Inflammatory Polyarthropathy,0.23
+Rx_CE_NoLowNoAged_RXHCC84,Rx_CE_NoLowNoAged_RXHCC84 -- Systemic Lupus Erythematosus and Other Systemic Connective Tissue Disorders,0.23
+Rx_CE_NoLowNoAged_RXHCC87,"Rx_CE_NoLowNoAged_RXHCC87 -- Osteoporosis, Vertebral and Pathological Fractures",0.17
+Rx_CE_NoLowNoAged_RXHCC95,Rx_CE_NoLowNoAged_RXHCC95 -- Sickle Cell Anemia,0.908
+Rx_CE_NoLowNoAged_RXHCC96,"Rx_CE_NoLowNoAged_RXHCC96 -- Acquired Hemolytic, Aplastic, and Sideroblastic Anemias",0.525
+Rx_CE_NoLowNoAged_RXHCC98,Rx_CE_NoLowNoAged_RXHCC98 -- Hereditary Angioedema and Other Defects in the Complement System,46.954
+Rx_CE_NoLowNoAged_RXHCC99,Rx_CE_NoLowNoAged_RXHCC99 -- Immune Disorders,0.44
+Rx_CE_NoLowNoAged_RXHCC100,Rx_CE_NoLowNoAged_RXHCC100 -- Immune Thrombocytopenic Purpura,0.341
+Rx_CE_NoLowNoAged_RXHCC111,Rx_CE_NoLowNoAged_RXHCC111 -- Alzheimer's Disease,0
+Rx_CE_NoLowNoAged_RXHCC112,"Rx_CE_NoLowNoAged_RXHCC112 -- Dementia, Except Alzheimer's Disease",0
+Rx_CE_NoLowNoAged_RXHCC130,Rx_CE_NoLowNoAged_RXHCC130 -- Schizophrenia and Other Psychosis,0.316
+Rx_CE_NoLowNoAged_RXHCC131,Rx_CE_NoLowNoAged_RXHCC131 -- Bipolar Disorders,0.16
+Rx_CE_NoLowNoAged_RXHCC132,Rx_CE_NoLowNoAged_RXHCC132 -- Depression,0.018
+Rx_CE_NoLowNoAged_RXHCC133,Rx_CE_NoLowNoAged_RXHCC133 -- Anxiety and Other Psychiatric Disorders,0.018
+Rx_CE_NoLowNoAged_RXHCC146,Rx_CE_NoLowNoAged_RXHCC146 -- Profound or Severe Intellectual Disability/Developmental Disorder,0.127
+Rx_CE_NoLowNoAged_RXHCC147,Rx_CE_NoLowNoAged_RXHCC147 -- Moderate Intellectual Disability/Developmental Disorder,0
+Rx_CE_NoLowNoAged_RXHCC148,Rx_CE_NoLowNoAged_RXHCC148 -- Mild or Unspecified Intellectual Disability/Developmental Disorder,0
+Rx_CE_NoLowNoAged_RXHCC153,Rx_CE_NoLowNoAged_RXHCC153 -- Myasthenia Gravis and Other Myoneural Disorders,3.41
+Rx_CE_NoLowNoAged_RXHCC154,Rx_CE_NoLowNoAged_RXHCC154 -- Amyotrophic Lateral Sclerosis and Other Motor Neuron Disease,4.995
+Rx_CE_NoLowNoAged_RXHCC155,Rx_CE_NoLowNoAged_RXHCC155 -- Spinal Cord Disorders,0.146
+Rx_CE_NoLowNoAged_RXHCC157,Rx_CE_NoLowNoAged_RXHCC157 -- Chronic Inflammatory Demyelinating Polyneuritis ,9.323
+Rx_CE_NoLowNoAged_RXHCC158,Rx_CE_NoLowNoAged_RXHCC158 -- Inflammatory and Toxic Neuropathy,0
+Rx_CE_NoLowNoAged_RXHCC159,Rx_CE_NoLowNoAged_RXHCC159 -- Multiple Sclerosis,1.277
+Rx_CE_NoLowNoAged_RXHCC160,Rx_CE_NoLowNoAged_RXHCC160 -- Huntington Disease,1.412
+Rx_CE_NoLowNoAged_RXHCC161,Rx_CE_NoLowNoAged_RXHCC161 -- Parkinson Disease,0.875
+Rx_CE_NoLowNoAged_RXHCC163,Rx_CE_NoLowNoAged_RXHCC163 -- Intractable Epilepsy,0.368
+Rx_CE_NoLowNoAged_RXHCC164,"Rx_CE_NoLowNoAged_RXHCC164 -- Epilepsy and Other Seizure Disorders, Except Intractable Epilepsy",0
+Rx_CE_NoLowNoAged_RXHCC166,Rx_CE_NoLowNoAged_RXHCC166 -- Migraine Headaches,0.194
+Rx_CE_NoLowNoAged_RXHCC168,Rx_CE_NoLowNoAged_RXHCC168 -- Trigeminal and Postherpetic Neuralgia,0.149
+Rx_CE_NoLowNoAged_RXHCC183,Rx_CE_NoLowNoAged_RXHCC183 -- Pulmonary Arterial Hypertension,6.752
+Rx_CE_NoLowNoAged_RXHCC184,"Rx_CE_NoLowNoAged_RXHCC184 -- Pulmonary Hypertension, Except Arterial, and Other Pulmonary Heart Disease",0.358
+Rx_CE_NoLowNoAged_RXHCC186,Rx_CE_NoLowNoAged_RXHCC186 -- Heart Failure,0.066
+Rx_CE_NoLowNoAged_RXHCC187,Rx_CE_NoLowNoAged_RXHCC187 -- Hypertension,0.029
+Rx_CE_NoLowNoAged_RXHCC188,Rx_CE_NoLowNoAged_RXHCC188 -- Coronary Artery Disease,0
+Rx_CE_NoLowNoAged_RXHCC191,Rx_CE_NoLowNoAged_RXHCC191 -- Ventricular Septal Defect and Major Congenital Heart Disorders,0.541
+Rx_CE_NoLowNoAged_RXHCC193,Rx_CE_NoLowNoAged_RXHCC193 -- Atrial Arrhythmias,0.058
+Rx_CE_NoLowNoAged_RXHCC207,Rx_CE_NoLowNoAged_RXHCC207 -- Spastic Hemiplegia,0.081
+Rx_CE_NoLowNoAged_RXHCC215,Rx_CE_NoLowNoAged_RXHCC215 -- Venous Thromboembolism,0.242
+Rx_CE_NoLowNoAged_RXHCC225,Rx_CE_NoLowNoAged_RXHCC225 -- Cystic Fibrosis,37.612
+Rx_CE_NoLowNoAged_RXHCC226,Rx_CE_NoLowNoAged_RXHCC226 -- Idiopathic Pulmonary Fibrosis and Systemic Sclerosis with Lung Involvement,2.918
+Rx_CE_NoLowNoAged_RXHCC227,"Rx_CE_NoLowNoAged_RXHCC227 -- Pulmonary Fibrosis, Except Idiopathic",0.452
+Rx_CE_NoLowNoAged_RXHCC228,Rx_CE_NoLowNoAged_RXHCC228 -- Severe Persistent Asthma,0.668
+Rx_CE_NoLowNoAged_RXHCC229,"Rx_CE_NoLowNoAged_RXHCC229 -- Chronic Obstructive Pulmonary Disease, Bronchiectasis, and Other Asthma",0.13
+Rx_CE_NoLowNoAged_RXHCC243,"Rx_CE_NoLowNoAged_RXHCC243 -- Glaucoma, Open-Angle or Moderate/Severe Stage",0.227
+Rx_CE_NoLowNoAged_RXHCC244,Rx_CE_NoLowNoAged_RXHCC244 -- Other Non-Acute Glaucoma,0
+Rx_CE_NoLowNoAged_RXHCC260,Rx_CE_NoLowNoAged_RXHCC260 -- Kidney Transplant Status,0
+Rx_CE_NoLowNoAged_RXHCC261,"Rx_CE_NoLowNoAged_RXHCC261 -- Dialysis Status, Including End Stage Renal Disease",0
+Rx_CE_NoLowNoAged_RXHCC262,Rx_CE_NoLowNoAged_RXHCC262 -- Chronic Kidney Disease Stage 5,0
+Rx_CE_NoLowNoAged_RXHCC263,Rx_CE_NoLowNoAged_RXHCC263 -- Chronic Kidney Disease Stage 4,0
+Rx_CE_NoLowNoAged_RXHCC311,"Rx_CE_NoLowNoAged_RXHCC311 -- Chronic Ulcer of Skin, Except Pressure",0.138
+Rx_CE_NoLowNoAged_RXHCC314,"Rx_CE_NoLowNoAged_RXHCC314 -- Pemphigus, Pemphigoid, and Other Bullous Skin Disorders",0.509
+Rx_CE_NoLowNoAged_RXHCC316,"Rx_CE_NoLowNoAged_RXHCC316 -- Psoriasis, Except with Arthropathy",0.278
+Rx_CE_NoLowNoAged_RXHCC317,Rx_CE_NoLowNoAged_RXHCC317 -- Discoid Lupus Erythematosus,0.026
+Rx_CE_NoLowNoAged_RXHCC355,Rx_CE_NoLowNoAged_RXHCC355 -- Narcolepsy and Cataplexy,2.36
+Rx_CE_NoLowNoAged_RXHCC395,"Rx_CE_NoLowNoAged_RXHCC395 -- Stem Cell, Including Bone Marrow, Transplant Status/Complications",2.836
+Rx_CE_NoLowNoAged_RXHCC396,"Rx_CE_NoLowNoAged_RXHCC396 -- Heart, Lung, Liver, Intestine, or Pancreas Transplant Status",0
+Rx_CE_LowAged_F65_69,"Rx_CE_LowAged_W65_69 -- Female, Age 65 - 69",0.108
+Rx_CE_LowAged_F70_74,"Rx_CE_LowAged_W70_74 -- Female, Age 70 - 74",0.108
+Rx_CE_LowAged_F75_79,"Rx_CE_LowAged_W75_79 -- Female, Age 75 - 79",0.108
+Rx_CE_LowAged_F80_84,"Rx_CE_LowAged_W80_84 -- Female, Age 80 - 84",0.108
+Rx_CE_LowAged_F85_89,"Rx_CE_LowAged_W85_89 -- Female, Age 85 - 89",0.108
+Rx_CE_LowAged_F90_94,"Rx_CE_LowAged_W90_94 -- Female, Age 90 - 94",0.108
+Rx_CE_LowAged_F95_GT,"Rx_CE_LowAged_W95_GT -- Female, Age 95 -",0.108
+Rx_CE_LowAged_M65_69,"Rx_CE_LowAged_M65_69 -- Male,   Age 65 - 69",0.329
+Rx_CE_LowAged_M70_74,"Rx_CE_LowAged_M70_74 -- Male,   Age 70 - 74",0.24
+Rx_CE_LowAged_M75_79,"Rx_CE_LowAged_M75_79 -- Male,   Age 75 - 79",0.171
+Rx_CE_LowAged_M80_84,"Rx_CE_LowAged_M80_84 -- Male,   Age 80 - 84",0.038
+Rx_CE_LowAged_M85_89,"Rx_CE_LowAged_M85_89 -- Male,   Age 85 - 89",0.038
+Rx_CE_LowAged_M90_94,"Rx_CE_LowAged_M90_94 -- Male,   Age 90 - 94",0.038
+Rx_CE_LowAged_M95_GT,"Rx_CE_LowAged_M95_GT -- Male,   Age 95 -",0.038
+Rx_CE_LowAged_F65OD,"Rx_CE_LowAged_F65OD -- Female, Age >= 65, originally entitled due to disability",0.376
+Rx_CE_LowAged_M65OD,"Rx_CE_LowAged_M65OD -- Male,   Age >= 65, originally entitled due to disability",0.169
+Rx_CE_LowAged_RXHCC1,Rx_CE_LowAged_RXHCC1 -- HIV/AIDS,9.677
+Rx_CE_LowAged_RXHCC5,Rx_CE_LowAged_RXHCC5 -- Opportunistic Infections,0.828
+Rx_CE_LowAged_RXHCC15,Rx_CE_LowAged_RXHCC15 -- Chronic Myeloid Leukemia,14.57
+Rx_CE_LowAged_RXHCC16,Rx_CE_LowAged_RXHCC16 -- Multiple Myeloma and Other Hematologic Cancers,12.238
+Rx_CE_LowAged_RXHCC17,Rx_CE_LowAged_RXHCC17 -- Secondary Cancer of Bone and Kidney,12.083
+Rx_CE_LowAged_RXHCC18,"Rx_CE_LowAged_RXHCC18 -- Secondary Cancer of Lung, Liver, Brain, and Other Sites",4.53
+Rx_CE_LowAged_RXHCC19,Rx_CE_LowAged_RXHCC19 -- Leukemias and Other Hematologic Cancers,3.712
+Rx_CE_LowAged_RXHCC20,"Rx_CE_LowAged_RXHCC20 -- Lung, Kidney, and Other Cancers; Secondary Cancer of Lymph Nodes and Other Sites",1.347
+Rx_CE_LowAged_RXHCC21,Rx_CE_LowAged_RXHCC21 -- Lymphomas and Other Hematologic Cancers,0.749
+Rx_CE_LowAged_RXHCC22,"Rx_CE_LowAged_RXHCC22 -- Prostate, Breast, Bladder, and Other Cancers and Tumors",0.436
+Rx_CE_LowAged_RXHCC30,Rx_CE_LowAged_RXHCC30 -- Diabetes with Complications,0.983
+Rx_CE_LowAged_RXHCC31,Rx_CE_LowAged_RXHCC31 -- Diabetes without Complication,0.429
+Rx_CE_LowAged_RXHCC40,Rx_CE_LowAged_RXHCC40 -- Alpha-1-Antitrypsin Deficiency,7.006
+Rx_CE_LowAged_RXHCC41,Rx_CE_LowAged_RXHCC41 -- Lysosomal Storage Disorders,6.058
+Rx_CE_LowAged_RXHCC42,Rx_CE_LowAged_RXHCC42 -- Acromegaly and Other Endocrine and Metabolic Disorders,2.778
+Rx_CE_LowAged_RXHCC43,"Rx_CE_LowAged_RXHCC43 -- Pituitary, Adrenal Gland, and Other Endocrine and Metabolic Disorders",0
+Rx_CE_LowAged_RXHCC44,Rx_CE_LowAged_RXHCC44 -- Thyroid Disorders,0.152
+Rx_CE_LowAged_RXHCC47,Rx_CE_LowAged_RXHCC47 -- Disorders of Lipoid Metabolism,0.047
+Rx_CE_LowAged_RXHCC54,Rx_CE_LowAged_RXHCC54 -- Chronic Viral Hepatitis C,0.267
+Rx_CE_LowAged_RXHCC55,Rx_CE_LowAged_RXHCC55 -- Acute or Unspecified Viral Hepatitis C,0.267
+Rx_CE_LowAged_RXHCC56,Rx_CE_LowAged_RXHCC56 -- Chronic Viral Hepatitis B and Other Specified Chronic Viral Hepatitis,1.274
+Rx_CE_LowAged_RXHCC59,Rx_CE_LowAged_RXHCC59 -- Primary Biliary Cirrhosis,1.597
+Rx_CE_LowAged_RXHCC65,Rx_CE_LowAged_RXHCC65 -- Chronic Pancreatitis,0.771
+Rx_CE_LowAged_RXHCC66,"Rx_CE_LowAged_RXHCC66 -- Pancreatic Disorders and Intestinal Malabsorption, Except Pancreatitis",0.689
+Rx_CE_LowAged_RXHCC67,Rx_CE_LowAged_RXHCC67 -- Inflammatory Bowel Disease,1.156
+Rx_CE_LowAged_RXHCC80,Rx_CE_LowAged_RXHCC80 -- Aseptic Necrosis of Bone,0.192
+Rx_CE_LowAged_RXHCC81,Rx_CE_LowAged_RXHCC81 -- Psoriatic Arthropathy,6.28
+Rx_CE_LowAged_RXHCC82,Rx_CE_LowAged_RXHCC82 -- Systemic Sclerosis,1.607
+Rx_CE_LowAged_RXHCC83,Rx_CE_LowAged_RXHCC83 -- Rheumatoid Arthritis and Other Inflammatory Polyarthropathy,1.227
+Rx_CE_LowAged_RXHCC84,Rx_CE_LowAged_RXHCC84 -- Systemic Lupus Erythematosus and Other Systemic Connective Tissue Disorders,0.34
+Rx_CE_LowAged_RXHCC87,"Rx_CE_LowAged_RXHCC87 -- Osteoporosis, Vertebral and Pathological Fractures",0.207
+Rx_CE_LowAged_RXHCC95,Rx_CE_LowAged_RXHCC95 -- Sickle Cell Anemia,0
+Rx_CE_LowAged_RXHCC96,"Rx_CE_LowAged_RXHCC96 -- Acquired Hemolytic, Aplastic, and Sideroblastic Anemias",1.02
+Rx_CE_LowAged_RXHCC98,Rx_CE_LowAged_RXHCC98 -- Hereditary Angioedema and Other Defects in the Complement System,12.558
+Rx_CE_LowAged_RXHCC99,Rx_CE_LowAged_RXHCC99 -- Immune Disorders,0.755
+Rx_CE_LowAged_RXHCC100,Rx_CE_LowAged_RXHCC100 -- Immune Thrombocytopenic Purpura,2.471
+Rx_CE_LowAged_RXHCC111,Rx_CE_LowAged_RXHCC111 -- Alzheimer's Disease,0
+Rx_CE_LowAged_RXHCC112,"Rx_CE_LowAged_RXHCC112 -- Dementia, Except Alzheimer's Disease",0
+Rx_CE_LowAged_RXHCC130,Rx_CE_LowAged_RXHCC130 -- Schizophrenia and Other Psychosis,0.905
+Rx_CE_LowAged_RXHCC131,Rx_CE_LowAged_RXHCC131 -- Bipolar Disorders,0.659
+Rx_CE_LowAged_RXHCC132,Rx_CE_LowAged_RXHCC132 -- Depression,0.102
+Rx_CE_LowAged_RXHCC133,Rx_CE_LowAged_RXHCC133 -- Anxiety and Other Psychiatric Disorders,0.035
+Rx_CE_LowAged_RXHCC146,Rx_CE_LowAged_RXHCC146 -- Profound or Severe Intellectual Disability/Developmental Disorder,0.546
+Rx_CE_LowAged_RXHCC147,Rx_CE_LowAged_RXHCC147 -- Moderate Intellectual Disability/Developmental Disorder,0.347
+Rx_CE_LowAged_RXHCC148,Rx_CE_LowAged_RXHCC148 -- Mild or Unspecified Intellectual Disability/Developmental Disorder,0.111
+Rx_CE_LowAged_RXHCC153,Rx_CE_LowAged_RXHCC153 -- Myasthenia Gravis and Other Myoneural Disorders,2.279
+Rx_CE_LowAged_RXHCC154,Rx_CE_LowAged_RXHCC154 -- Amyotrophic Lateral Sclerosis and Other Motor Neuron Disease,3.456
+Rx_CE_LowAged_RXHCC155,Rx_CE_LowAged_RXHCC155 -- Spinal Cord Disorders,0.027
+Rx_CE_LowAged_RXHCC157,Rx_CE_LowAged_RXHCC157 -- Chronic Inflammatory Demyelinating Polyneuritis ,6.578
+Rx_CE_LowAged_RXHCC158,Rx_CE_LowAged_RXHCC158 -- Inflammatory and Toxic Neuropathy,0
+Rx_CE_LowAged_RXHCC159,Rx_CE_LowAged_RXHCC159 -- Multiple Sclerosis,3.299
+Rx_CE_LowAged_RXHCC160,Rx_CE_LowAged_RXHCC160 -- Huntington Disease,5.311
+Rx_CE_LowAged_RXHCC161,Rx_CE_LowAged_RXHCC161 -- Parkinson Disease,0.687
+Rx_CE_LowAged_RXHCC163,Rx_CE_LowAged_RXHCC163 -- Intractable Epilepsy,0.388
+Rx_CE_LowAged_RXHCC164,"Rx_CE_LowAged_RXHCC164 -- Epilepsy and Other Seizure Disorders, Except Intractable Epilepsy",0
+Rx_CE_LowAged_RXHCC166,Rx_CE_LowAged_RXHCC166 -- Migraine Headaches,0.541
+Rx_CE_LowAged_RXHCC168,Rx_CE_LowAged_RXHCC168 -- Trigeminal and Postherpetic Neuralgia,0.184
+Rx_CE_LowAged_RXHCC183,Rx_CE_LowAged_RXHCC183 -- Pulmonary Arterial Hypertension,2.391
+Rx_CE_LowAged_RXHCC184,"Rx_CE_LowAged_RXHCC184 -- Pulmonary Hypertension, Except Arterial, and Other Pulmonary Heart Disease",0.197
+Rx_CE_LowAged_RXHCC186,Rx_CE_LowAged_RXHCC186 -- Heart Failure,0.197
+Rx_CE_LowAged_RXHCC187,Rx_CE_LowAged_RXHCC187 -- Hypertension,0.103
+Rx_CE_LowAged_RXHCC188,Rx_CE_LowAged_RXHCC188 -- Coronary Artery Disease,0.177
+Rx_CE_LowAged_RXHCC191,Rx_CE_LowAged_RXHCC191 -- Ventricular Septal Defect and Major Congenital Heart Disorders,0.087
+Rx_CE_LowAged_RXHCC193,Rx_CE_LowAged_RXHCC193 -- Atrial Arrhythmias,0.154
+Rx_CE_LowAged_RXHCC207,Rx_CE_LowAged_RXHCC207 -- Spastic Hemiplegia,0
+Rx_CE_LowAged_RXHCC215,Rx_CE_LowAged_RXHCC215 -- Venous Thromboembolism,0.216
+Rx_CE_LowAged_RXHCC225,Rx_CE_LowAged_RXHCC225 -- Cystic Fibrosis,4.932
+Rx_CE_LowAged_RXHCC226,Rx_CE_LowAged_RXHCC226 -- Idiopathic Pulmonary Fibrosis and Systemic Sclerosis with Lung Involvement,6.057
+Rx_CE_LowAged_RXHCC227,"Rx_CE_LowAged_RXHCC227 -- Pulmonary Fibrosis, Except Idiopathic",0.515
+Rx_CE_LowAged_RXHCC228,Rx_CE_LowAged_RXHCC228 -- Severe Persistent Asthma,3.048
+Rx_CE_LowAged_RXHCC229,"Rx_CE_LowAged_RXHCC229 -- Chronic Obstructive Pulmonary Disease, Bronchiectasis, and Other Asthma",0.406
+Rx_CE_LowAged_RXHCC243,"Rx_CE_LowAged_RXHCC243 -- Glaucoma, Open-Angle or Moderate/Severe Stage",0.406
+Rx_CE_LowAged_RXHCC244,Rx_CE_LowAged_RXHCC244 -- Other Non-Acute Glaucoma,0.066
+Rx_CE_LowAged_RXHCC260,Rx_CE_LowAged_RXHCC260 -- Kidney Transplant Status,0
+Rx_CE_LowAged_RXHCC261,"Rx_CE_LowAged_RXHCC261 -- Dialysis Status, Including End Stage Renal Disease",0.007
+Rx_CE_LowAged_RXHCC262,Rx_CE_LowAged_RXHCC262 -- Chronic Kidney Disease Stage 5,0.007
+Rx_CE_LowAged_RXHCC263,Rx_CE_LowAged_RXHCC263 -- Chronic Kidney Disease Stage 4,0.007
+Rx_CE_LowAged_RXHCC311,"Rx_CE_LowAged_RXHCC311 -- Chronic Ulcer of Skin, Except Pressure",0.116
+Rx_CE_LowAged_RXHCC314,"Rx_CE_LowAged_RXHCC314 -- Pemphigus, Pemphigoid, and Other Bullous Skin Disorders",0.748
+Rx_CE_LowAged_RXHCC316,"Rx_CE_LowAged_RXHCC316 -- Psoriasis, Except with Arthropathy",1.969
+Rx_CE_LowAged_RXHCC317,Rx_CE_LowAged_RXHCC317 -- Discoid Lupus Erythematosus,0.156
+Rx_CE_LowAged_RXHCC355,Rx_CE_LowAged_RXHCC355 -- Narcolepsy and Cataplexy,1.926
+Rx_CE_LowAged_RXHCC395,"Rx_CE_LowAged_RXHCC395 -- Stem Cell, Including Bone Marrow, Transplant Status/Complications",5.752
+Rx_CE_LowAged_RXHCC396,"Rx_CE_LowAged_RXHCC396 -- Heart, Lung, Liver, Intestine, or Pancreas Transplant Status",0
+Rx_CE_LowNoAged_F0_34,"Rx_CE_LowNoAged_W0_34 -- Female, Age  0 - 34",0.69
+Rx_CE_LowNoAged_F35_44,"Rx_CE_LowNoAged_W35_44 -- Female, Age 35 - 44",0.837
+Rx_CE_LowNoAged_F45_54,"Rx_CE_LowNoAged_W45_54 -- Female, Age 45 - 54",0.772
+Rx_CE_LowNoAged_F55_59,"Rx_CE_LowNoAged_W55_59 -- Female, Age 55 - 59",0.497
+Rx_CE_LowNoAged_F60_64,"Rx_CE_LowNoAged_W60_64 -- Female, Age 60 - 64",0.257
+Rx_CE_LowNoAged_M0_34,"Rx_CE_LowNoAged_M0_34 -- Male,   Age  0 - 34",0.715
+Rx_CE_LowNoAged_M35_44,"Rx_CE_LowNoAged_M35_44 -- Male,   Age 35 - 44",0.689
+Rx_CE_LowNoAged_M45_54,"Rx_CE_LowNoAged_M45_54 -- Male,   Age 45 - 54",0.541
+Rx_CE_LowNoAged_M55_59,"Rx_CE_LowNoAged_M55_59 -- Male,   Age 55 - 59",0.38
+Rx_CE_LowNoAged_M60_64,"Rx_CE_LowNoAged_M60_64 -- Male,   Age 60 - 64",0.229
+Rx_CE_LowNoAged_RXHCC1,Rx_CE_LowNoAged_RXHCC1 -- HIV/AIDS,9.773
+Rx_CE_LowNoAged_RXHCC5,Rx_CE_LowNoAged_RXHCC5 -- Opportunistic Infections,0.537
+Rx_CE_LowNoAged_RXHCC15,Rx_CE_LowNoAged_RXHCC15 -- Chronic Myeloid Leukemia,22.052
+Rx_CE_LowNoAged_RXHCC16,Rx_CE_LowNoAged_RXHCC16 -- Multiple Myeloma and Other Hematologic Cancers,11.536
+Rx_CE_LowNoAged_RXHCC17,Rx_CE_LowNoAged_RXHCC17 -- Secondary Cancer of Bone and Kidney,10.952
+Rx_CE_LowNoAged_RXHCC18,"Rx_CE_LowNoAged_RXHCC18 -- Secondary Cancer of Lung, Liver, Brain, and Other Sites",3.803
+Rx_CE_LowNoAged_RXHCC19,Rx_CE_LowNoAged_RXHCC19 -- Leukemias and Other Hematologic Cancers,3.413
+Rx_CE_LowNoAged_RXHCC20,"Rx_CE_LowNoAged_RXHCC20 -- Lung, Kidney, and Other Cancers; Secondary Cancer of Lymph Nodes and Other Sites",0.962
+Rx_CE_LowNoAged_RXHCC21,Rx_CE_LowNoAged_RXHCC21 -- Lymphomas and Other Hematologic Cancers,0.359
+Rx_CE_LowNoAged_RXHCC22,"Rx_CE_LowNoAged_RXHCC22 -- Prostate, Breast, Bladder, and Other Cancers and Tumors",0.359
+Rx_CE_LowNoAged_RXHCC30,Rx_CE_LowNoAged_RXHCC30 -- Diabetes with Complications,1.53
+Rx_CE_LowNoAged_RXHCC31,Rx_CE_LowNoAged_RXHCC31 -- Diabetes without Complication,0.695
+Rx_CE_LowNoAged_RXHCC40,Rx_CE_LowNoAged_RXHCC40 -- Alpha-1-Antitrypsin Deficiency,8.774
+Rx_CE_LowNoAged_RXHCC41,Rx_CE_LowNoAged_RXHCC41 -- Lysosomal Storage Disorders,20.506
+Rx_CE_LowNoAged_RXHCC42,Rx_CE_LowNoAged_RXHCC42 -- Acromegaly and Other Endocrine and Metabolic Disorders,5.559
+Rx_CE_LowNoAged_RXHCC43,"Rx_CE_LowNoAged_RXHCC43 -- Pituitary, Adrenal Gland, and Other Endocrine and Metabolic Disorders",0.142
+Rx_CE_LowNoAged_RXHCC44,Rx_CE_LowNoAged_RXHCC44 -- Thyroid Disorders,0.339
+Rx_CE_LowNoAged_RXHCC47,Rx_CE_LowNoAged_RXHCC47 -- Disorders of Lipoid Metabolism,0.096
+Rx_CE_LowNoAged_RXHCC54,Rx_CE_LowNoAged_RXHCC54 -- Chronic Viral Hepatitis C,0.073
+Rx_CE_LowNoAged_RXHCC55,Rx_CE_LowNoAged_RXHCC55 -- Acute or Unspecified Viral Hepatitis C,0.073
+Rx_CE_LowNoAged_RXHCC56,Rx_CE_LowNoAged_RXHCC56 -- Chronic Viral Hepatitis B and Other Specified Chronic Viral Hepatitis,0.806
+Rx_CE_LowNoAged_RXHCC59,Rx_CE_LowNoAged_RXHCC59 -- Primary Biliary Cirrhosis,2.139
+Rx_CE_LowNoAged_RXHCC65,Rx_CE_LowNoAged_RXHCC65 -- Chronic Pancreatitis,1.26
+Rx_CE_LowNoAged_RXHCC66,"Rx_CE_LowNoAged_RXHCC66 -- Pancreatic Disorders and Intestinal Malabsorption, Except Pancreatitis",1.26
+Rx_CE_LowNoAged_RXHCC67,Rx_CE_LowNoAged_RXHCC67 -- Inflammatory Bowel Disease,2.678
+Rx_CE_LowNoAged_RXHCC80,Rx_CE_LowNoAged_RXHCC80 -- Aseptic Necrosis of Bone,0.433
+Rx_CE_LowNoAged_RXHCC81,Rx_CE_LowNoAged_RXHCC81 -- Psoriatic Arthropathy,9.094
+Rx_CE_LowNoAged_RXHCC82,Rx_CE_LowNoAged_RXHCC82 -- Systemic Sclerosis,2.157
+Rx_CE_LowNoAged_RXHCC83,Rx_CE_LowNoAged_RXHCC83 -- Rheumatoid Arthritis and Other Inflammatory Polyarthropathy,2.157
+Rx_CE_LowNoAged_RXHCC84,Rx_CE_LowNoAged_RXHCC84 -- Systemic Lupus Erythematosus and Other Systemic Connective Tissue Disorders,0.501
+Rx_CE_LowNoAged_RXHCC87,"Rx_CE_LowNoAged_RXHCC87 -- Osteoporosis, Vertebral and Pathological Fractures",0.496
+Rx_CE_LowNoAged_RXHCC95,Rx_CE_LowNoAged_RXHCC95 -- Sickle Cell Anemia,1.584
+Rx_CE_LowNoAged_RXHCC96,"Rx_CE_LowNoAged_RXHCC96 -- Acquired Hemolytic, Aplastic, and Sideroblastic Anemias",1.126
+Rx_CE_LowNoAged_RXHCC98,Rx_CE_LowNoAged_RXHCC98 -- Hereditary Angioedema and Other Defects in the Complement System,51.801
+Rx_CE_LowNoAged_RXHCC99,Rx_CE_LowNoAged_RXHCC99 -- Immune Disorders,1.248
+Rx_CE_LowNoAged_RXHCC100,Rx_CE_LowNoAged_RXHCC100 -- Immune Thrombocytopenic Purpura,3.003
+Rx_CE_LowNoAged_RXHCC111,Rx_CE_LowNoAged_RXHCC111 -- Alzheimer's Disease,0
+Rx_CE_LowNoAged_RXHCC112,"Rx_CE_LowNoAged_RXHCC112 -- Dementia, Except Alzheimer's Disease",0
+Rx_CE_LowNoAged_RXHCC130,Rx_CE_LowNoAged_RXHCC130 -- Schizophrenia and Other Psychosis,1.574
+Rx_CE_LowNoAged_RXHCC131,Rx_CE_LowNoAged_RXHCC131 -- Bipolar Disorders,0.768
+Rx_CE_LowNoAged_RXHCC132,Rx_CE_LowNoAged_RXHCC132 -- Depression,0.225
+Rx_CE_LowNoAged_RXHCC133,Rx_CE_LowNoAged_RXHCC133 -- Anxiety and Other Psychiatric Disorders,0.131
+Rx_CE_LowNoAged_RXHCC146,Rx_CE_LowNoAged_RXHCC146 -- Profound or Severe Intellectual Disability/Developmental Disorder,0.275
+Rx_CE_LowNoAged_RXHCC147,Rx_CE_LowNoAged_RXHCC147 -- Moderate Intellectual Disability/Developmental Disorder,0.132
+Rx_CE_LowNoAged_RXHCC148,Rx_CE_LowNoAged_RXHCC148 -- Mild or Unspecified Intellectual Disability/Developmental Disorder,0
+Rx_CE_LowNoAged_RXHCC153,Rx_CE_LowNoAged_RXHCC153 -- Myasthenia Gravis and Other Myoneural Disorders,3.891
+Rx_CE_LowNoAged_RXHCC154,Rx_CE_LowNoAged_RXHCC154 -- Amyotrophic Lateral Sclerosis and Other Motor Neuron Disease,4.382
+Rx_CE_LowNoAged_RXHCC155,Rx_CE_LowNoAged_RXHCC155 -- Spinal Cord Disorders,0.171
+Rx_CE_LowNoAged_RXHCC157,Rx_CE_LowNoAged_RXHCC157 -- Chronic Inflammatory Demyelinating Polyneuritis ,10.309
+Rx_CE_LowNoAged_RXHCC158,Rx_CE_LowNoAged_RXHCC158 -- Inflammatory and Toxic Neuropathy,0
+Rx_CE_LowNoAged_RXHCC159,Rx_CE_LowNoAged_RXHCC159 -- Multiple Sclerosis,5.81
+Rx_CE_LowNoAged_RXHCC160,Rx_CE_LowNoAged_RXHCC160 -- Huntington Disease,6.837
+Rx_CE_LowNoAged_RXHCC161,Rx_CE_LowNoAged_RXHCC161 -- Parkinson Disease,1.178
+Rx_CE_LowNoAged_RXHCC163,Rx_CE_LowNoAged_RXHCC163 -- Intractable Epilepsy,2.741
+Rx_CE_LowNoAged_RXHCC164,"Rx_CE_LowNoAged_RXHCC164 -- Epilepsy and Other Seizure Disorders, Except Intractable Epilepsy",0.026
+Rx_CE_LowNoAged_RXHCC166,Rx_CE_LowNoAged_RXHCC166 -- Migraine Headaches,0.714
+Rx_CE_LowNoAged_RXHCC168,Rx_CE_LowNoAged_RXHCC168 -- Trigeminal and Postherpetic Neuralgia,0.443
+Rx_CE_LowNoAged_RXHCC183,Rx_CE_LowNoAged_RXHCC183 -- Pulmonary Arterial Hypertension,8.532
+Rx_CE_LowNoAged_RXHCC184,"Rx_CE_LowNoAged_RXHCC184 -- Pulmonary Hypertension, Except Arterial, and Other Pulmonary Heart Disease",0.416
+Rx_CE_LowNoAged_RXHCC186,Rx_CE_LowNoAged_RXHCC186 -- Heart Failure,0.187
+Rx_CE_LowNoAged_RXHCC187,Rx_CE_LowNoAged_RXHCC187 -- Hypertension,0.147
+Rx_CE_LowNoAged_RXHCC188,Rx_CE_LowNoAged_RXHCC188 -- Coronary Artery Disease,0
+Rx_CE_LowNoAged_RXHCC191,Rx_CE_LowNoAged_RXHCC191 -- Ventricular Septal Defect and Major Congenital Heart Disorders,0
+Rx_CE_LowNoAged_RXHCC193,Rx_CE_LowNoAged_RXHCC193 -- Atrial Arrhythmias,0.02
+Rx_CE_LowNoAged_RXHCC207,Rx_CE_LowNoAged_RXHCC207 -- Spastic Hemiplegia,0.103
+Rx_CE_LowNoAged_RXHCC215,Rx_CE_LowNoAged_RXHCC215 -- Venous Thromboembolism,0.25
+Rx_CE_LowNoAged_RXHCC225,Rx_CE_LowNoAged_RXHCC225 -- Cystic Fibrosis,49.694
+Rx_CE_LowNoAged_RXHCC226,Rx_CE_LowNoAged_RXHCC226 -- Idiopathic Pulmonary Fibrosis and Systemic Sclerosis with Lung Involvement,5.993
+Rx_CE_LowNoAged_RXHCC227,"Rx_CE_LowNoAged_RXHCC227 -- Pulmonary Fibrosis, Except Idiopathic",1.141
+Rx_CE_LowNoAged_RXHCC228,Rx_CE_LowNoAged_RXHCC228 -- Severe Persistent Asthma,3.463
+Rx_CE_LowNoAged_RXHCC229,"Rx_CE_LowNoAged_RXHCC229 -- Chronic Obstructive Pulmonary Disease, Bronchiectasis, and Other Asthma",0.336
+Rx_CE_LowNoAged_RXHCC243,"Rx_CE_LowNoAged_RXHCC243 -- Glaucoma, Open-Angle or Moderate/Severe Stage",0.571
+Rx_CE_LowNoAged_RXHCC244,Rx_CE_LowNoAged_RXHCC244 -- Other Non-Acute Glaucoma,0
+Rx_CE_LowNoAged_RXHCC260,Rx_CE_LowNoAged_RXHCC260 -- Kidney Transplant Status,0
+Rx_CE_LowNoAged_RXHCC261,"Rx_CE_LowNoAged_RXHCC261 -- Dialysis Status, Including End Stage Renal Disease",0
+Rx_CE_LowNoAged_RXHCC262,Rx_CE_LowNoAged_RXHCC262 -- Chronic Kidney Disease Stage 5,0
+Rx_CE_LowNoAged_RXHCC263,Rx_CE_LowNoAged_RXHCC263 -- Chronic Kidney Disease Stage 4,0
+Rx_CE_LowNoAged_RXHCC311,"Rx_CE_LowNoAged_RXHCC311 -- Chronic Ulcer of Skin, Except Pressure",0.071
+Rx_CE_LowNoAged_RXHCC314,"Rx_CE_LowNoAged_RXHCC314 -- Pemphigus, Pemphigoid, and Other Bullous Skin Disorders",1.665
+Rx_CE_LowNoAged_RXHCC316,"Rx_CE_LowNoAged_RXHCC316 -- Psoriasis, Except with Arthropathy",3.361
+Rx_CE_LowNoAged_RXHCC317,Rx_CE_LowNoAged_RXHCC317 -- Discoid Lupus Erythematosus,0
+Rx_CE_LowNoAged_RXHCC355,Rx_CE_LowNoAged_RXHCC355 -- Narcolepsy and Cataplexy,4.666
+Rx_CE_LowNoAged_RXHCC395,"Rx_CE_LowNoAged_RXHCC395 -- Stem Cell, Including Bone Marrow, Transplant Status/Complications",4.181
+Rx_CE_LowNoAged_RXHCC396,"Rx_CE_LowNoAged_RXHCC396 -- Heart, Lung, Liver, Intestine, or Pancreas Transplant Status",0
+Rx_CE_LTI_F0_34,"Rx_CE_LTI_W0_34 -- Female, Age  0 - 34",2.656
+Rx_CE_LTI_F35_44,"Rx_CE_LTI_W35_44 -- Female, Age 35 - 44",2.4
+Rx_CE_LTI_F45_54,"Rx_CE_LTI_W45_54 -- Female, Age 45 - 54",1.543
+Rx_CE_LTI_F55_59,"Rx_CE_LTI_W55_59 -- Female, Age 55 - 59",1.455
+Rx_CE_LTI_F60_64,"Rx_CE_LTI_W60_64 -- Female, Age 60 - 64",1.098
+Rx_CE_LTI_F65_69,"Rx_CE_LTI_W65_69 -- Female, Age 65 - 69",1.211
+Rx_CE_LTI_F70_74,"Rx_CE_LTI_W70_74 -- Female, Age 70 - 74",0.923
+Rx_CE_LTI_F75_79,"Rx_CE_LTI_W75_79 -- Female, Age 75 - 79",0.628
+Rx_CE_LTI_F80_84,"Rx_CE_LTI_W80_84 -- Female, Age 80 - 84",0.328
+Rx_CE_LTI_F85_89,"Rx_CE_LTI_W85_89 -- Female, Age 85 - 89",0.187
+Rx_CE_LTI_F90_94,"Rx_CE_LTI_W90_94 -- Female, Age 90 - 94",0.01
+Rx_CE_LTI_F95_GT,"Rx_CE_LTI_W95_GT -- Female, Age 95 -",0.01
+Rx_CE_LTI_M0_34,"Rx_CE_LTI_M0_34 -- Male,   Age  0 - 34",2.151
+Rx_CE_LTI_M35_44,"Rx_CE_LTI_M35_44 -- Male,   Age 35 - 44",1.847
+Rx_CE_LTI_M45_54,"Rx_CE_LTI_M45_54 -- Male,   Age 45 - 54",1.451
+Rx_CE_LTI_M55_59,"Rx_CE_LTI_M55_59 -- Male,   Age 55 - 59",1.13
+Rx_CE_LTI_M60_64,"Rx_CE_LTI_M60_64 -- Male,   Age 60 - 64",0.882
+Rx_CE_LTI_M65_69,"Rx_CE_LTI_M65_69 -- Male,   Age 65 - 69",0.896
+Rx_CE_LTI_M70_74,"Rx_CE_LTI_M70_74 -- Male,   Age 70 - 74",0.698
+Rx_CE_LTI_M75_79,"Rx_CE_LTI_M75_79 -- Male,   Age 75 - 79",0.482
+Rx_CE_LTI_M80_84,"Rx_CE_LTI_M80_84 -- Male,   Age 80 - 84",0.282
+Rx_CE_LTI_M85_89,"Rx_CE_LTI_M85_89 -- Male,   Age 85 - 89",0.084
+Rx_CE_LTI_M90_94,"Rx_CE_LTI_M90_94 -- Male,   Age 90 - 94",0.084
+Rx_CE_LTI_M95_GT,"Rx_CE_LTI_M95_GT -- Male,   Age 95 -",0.084
+Rx_CE_LTI_ORIGDS,Rx_CE_LTI_ORIGDS -- Originally entitled due to disability,0.298
+Rx_CE_LTI_RXHCC1,Rx_CE_LTI_RXHCC1 -- HIV/AIDS,7.179
+Rx_CE_LTI_RXHCC5,Rx_CE_LTI_RXHCC5 -- Opportunistic Infections,0.323
+Rx_CE_LTI_RXHCC15,Rx_CE_LTI_RXHCC15 -- Chronic Myeloid Leukemia,9.021
+Rx_CE_LTI_RXHCC16,Rx_CE_LTI_RXHCC16 -- Multiple Myeloma and Other Hematologic Cancers,5.396
+Rx_CE_LTI_RXHCC17,Rx_CE_LTI_RXHCC17 -- Secondary Cancer of Bone and Kidney,5.396
+Rx_CE_LTI_RXHCC18,"Rx_CE_LTI_RXHCC18 -- Secondary Cancer of Lung, Liver, Brain, and Other Sites",1.275
+Rx_CE_LTI_RXHCC19,Rx_CE_LTI_RXHCC19 -- Leukemias and Other Hematologic Cancers,1.275
+Rx_CE_LTI_RXHCC20,"Rx_CE_LTI_RXHCC20 -- Lung, Kidney, and Other Cancers; Secondary Cancer of Lymph Nodes and Other Sites",0.397
+Rx_CE_LTI_RXHCC21,Rx_CE_LTI_RXHCC21 -- Lymphomas and Other Hematologic Cancers,0.255
+Rx_CE_LTI_RXHCC22,"Rx_CE_LTI_RXHCC22 -- Prostate, Breast, Bladder, and Other Cancers and Tumors",0.206
+Rx_CE_LTI_RXHCC30,Rx_CE_LTI_RXHCC30 -- Diabetes with Complications,0.756
+Rx_CE_LTI_RXHCC31,Rx_CE_LTI_RXHCC31 -- Diabetes without Complication,0.326
+Rx_CE_LTI_RXHCC40,Rx_CE_LTI_RXHCC40 -- Alpha-1-Antitrypsin Deficiency,1.117
+Rx_CE_LTI_RXHCC41,Rx_CE_LTI_RXHCC41 -- Lysosomal Storage Disorders,0.033
+Rx_CE_LTI_RXHCC42,Rx_CE_LTI_RXHCC42 -- Acromegaly and Other Endocrine and Metabolic Disorders,0.905
+Rx_CE_LTI_RXHCC43,"Rx_CE_LTI_RXHCC43 -- Pituitary, Adrenal Gland, and Other Endocrine and Metabolic Disorders",0.033
+Rx_CE_LTI_RXHCC44,Rx_CE_LTI_RXHCC44 -- Thyroid Disorders,0.157
+Rx_CE_LTI_RXHCC47,Rx_CE_LTI_RXHCC47 -- Disorders of Lipoid Metabolism,0.022
+Rx_CE_LTI_RXHCC54,Rx_CE_LTI_RXHCC54 -- Chronic Viral Hepatitis C,0.536
+Rx_CE_LTI_RXHCC55,Rx_CE_LTI_RXHCC55 -- Acute or Unspecified Viral Hepatitis C,0.536
+Rx_CE_LTI_RXHCC56,Rx_CE_LTI_RXHCC56 -- Chronic Viral Hepatitis B and Other Specified Chronic Viral Hepatitis,0.641
+Rx_CE_LTI_RXHCC59,Rx_CE_LTI_RXHCC59 -- Primary Biliary Cirrhosis,1.53
+Rx_CE_LTI_RXHCC65,Rx_CE_LTI_RXHCC65 -- Chronic Pancreatitis,0.644
+Rx_CE_LTI_RXHCC66,"Rx_CE_LTI_RXHCC66 -- Pancreatic Disorders and Intestinal Malabsorption, Except Pancreatitis",0.395
+Rx_CE_LTI_RXHCC67,Rx_CE_LTI_RXHCC67 -- Inflammatory Bowel Disease,0.39
+Rx_CE_LTI_RXHCC80,Rx_CE_LTI_RXHCC80 -- Aseptic Necrosis of Bone,0
+Rx_CE_LTI_RXHCC81,Rx_CE_LTI_RXHCC81 -- Psoriatic Arthropathy,3.418
+Rx_CE_LTI_RXHCC82,Rx_CE_LTI_RXHCC82 -- Systemic Sclerosis,0.5
+Rx_CE_LTI_RXHCC83,Rx_CE_LTI_RXHCC83 -- Rheumatoid Arthritis and Other Inflammatory Polyarthropathy,0.5
+Rx_CE_LTI_RXHCC84,Rx_CE_LTI_RXHCC84 -- Systemic Lupus Erythematosus and Other Systemic Connective Tissue Disorders,0.128
+Rx_CE_LTI_RXHCC87,"Rx_CE_LTI_RXHCC87 -- Osteoporosis, Vertebral and Pathological Fractures",0.037
+Rx_CE_LTI_RXHCC95,Rx_CE_LTI_RXHCC95 -- Sickle Cell Anemia,0
+Rx_CE_LTI_RXHCC96,"Rx_CE_LTI_RXHCC96 -- Acquired Hemolytic, Aplastic, and Sideroblastic Anemias",0.192
+Rx_CE_LTI_RXHCC98,Rx_CE_LTI_RXHCC98 -- Hereditary Angioedema and Other Defects in the Complement System,2.96
+Rx_CE_LTI_RXHCC99,Rx_CE_LTI_RXHCC99 -- Immune Disorders,0.364
+Rx_CE_LTI_RXHCC100,Rx_CE_LTI_RXHCC100 -- Immune Thrombocytopenic Purpura,1.707
+Rx_CE_LTI_RXHCC111,Rx_CE_LTI_RXHCC111 -- Alzheimer's Disease,0
+Rx_CE_LTI_RXHCC112,"Rx_CE_LTI_RXHCC112 -- Dementia, Except Alzheimer's Disease",0
+Rx_CE_LTI_RXHCC130,Rx_CE_LTI_RXHCC130 -- Schizophrenia and Other Psychosis,0.511
+Rx_CE_LTI_RXHCC131,Rx_CE_LTI_RXHCC131 -- Bipolar Disorders,0.435
+Rx_CE_LTI_RXHCC132,Rx_CE_LTI_RXHCC132 -- Depression,0.114
+Rx_CE_LTI_RXHCC133,Rx_CE_LTI_RXHCC133 -- Anxiety and Other Psychiatric Disorders,0
+Rx_CE_LTI_RXHCC146,Rx_CE_LTI_RXHCC146 -- Profound or Severe Intellectual Disability/Developmental Disorder,0
+Rx_CE_LTI_RXHCC147,Rx_CE_LTI_RXHCC147 -- Moderate Intellectual Disability/Developmental Disorder,0
+Rx_CE_LTI_RXHCC148,Rx_CE_LTI_RXHCC148 -- Mild or Unspecified Intellectual Disability/Developmental Disorder,0
+Rx_CE_LTI_RXHCC153,Rx_CE_LTI_RXHCC153 -- Myasthenia Gravis and Other Myoneural Disorders,0.423
+Rx_CE_LTI_RXHCC154,Rx_CE_LTI_RXHCC154 -- Amyotrophic Lateral Sclerosis and Other Motor Neuron Disease,1.002
+Rx_CE_LTI_RXHCC155,Rx_CE_LTI_RXHCC155 -- Spinal Cord Disorders,0.111
+Rx_CE_LTI_RXHCC157,Rx_CE_LTI_RXHCC157 -- Chronic Inflammatory Demyelinating Polyneuritis ,0.729
+Rx_CE_LTI_RXHCC158,Rx_CE_LTI_RXHCC158 -- Inflammatory and Toxic Neuropathy,0.139
+Rx_CE_LTI_RXHCC159,Rx_CE_LTI_RXHCC159 -- Multiple Sclerosis,1.85
+Rx_CE_LTI_RXHCC160,Rx_CE_LTI_RXHCC160 -- Huntington Disease,4.749
+Rx_CE_LTI_RXHCC161,Rx_CE_LTI_RXHCC161 -- Parkinson Disease,0.911
+Rx_CE_LTI_RXHCC163,Rx_CE_LTI_RXHCC163 -- Intractable Epilepsy,0.013
+Rx_CE_LTI_RXHCC164,"Rx_CE_LTI_RXHCC164 -- Epilepsy and Other Seizure Disorders, Except Intractable Epilepsy",0
+Rx_CE_LTI_RXHCC166,Rx_CE_LTI_RXHCC166 -- Migraine Headaches,0.454
+Rx_CE_LTI_RXHCC168,Rx_CE_LTI_RXHCC168 -- Trigeminal and Postherpetic Neuralgia,0.22
+Rx_CE_LTI_RXHCC183,Rx_CE_LTI_RXHCC183 -- Pulmonary Arterial Hypertension,0.54
+Rx_CE_LTI_RXHCC184,"Rx_CE_LTI_RXHCC184 -- Pulmonary Hypertension, Except Arterial, and Other Pulmonary Heart Disease",0.196
+Rx_CE_LTI_RXHCC186,Rx_CE_LTI_RXHCC186 -- Heart Failure,0.146
+Rx_CE_LTI_RXHCC187,Rx_CE_LTI_RXHCC187 -- Hypertension,0.016
+Rx_CE_LTI_RXHCC188,Rx_CE_LTI_RXHCC188 -- Coronary Artery Disease,0
+Rx_CE_LTI_RXHCC191,Rx_CE_LTI_RXHCC191 -- Ventricular Septal Defect and Major Congenital Heart Disorders,0.345
+Rx_CE_LTI_RXHCC193,Rx_CE_LTI_RXHCC193 -- Atrial Arrhythmias,0.175
+Rx_CE_LTI_RXHCC207,Rx_CE_LTI_RXHCC207 -- Spastic Hemiplegia,0
+Rx_CE_LTI_RXHCC215,Rx_CE_LTI_RXHCC215 -- Venous Thromboembolism,0.146
+Rx_CE_LTI_RXHCC225,Rx_CE_LTI_RXHCC225 -- Cystic Fibrosis,6.12
+Rx_CE_LTI_RXHCC226,Rx_CE_LTI_RXHCC226 -- Idiopathic Pulmonary Fibrosis and Systemic Sclerosis with Lung Involvement,1.117
+Rx_CE_LTI_RXHCC227,"Rx_CE_LTI_RXHCC227 -- Pulmonary Fibrosis, Except Idiopathic",0.405
+Rx_CE_LTI_RXHCC228,Rx_CE_LTI_RXHCC228 -- Severe Persistent Asthma,1.303
+Rx_CE_LTI_RXHCC229,"Rx_CE_LTI_RXHCC229 -- Chronic Obstructive Pulmonary Disease, Bronchiectasis, and Other Asthma",0.405
+Rx_CE_LTI_RXHCC243,"Rx_CE_LTI_RXHCC243 -- Glaucoma, Open-Angle or Moderate/Severe Stage",0.34
+Rx_CE_LTI_RXHCC244,Rx_CE_LTI_RXHCC244 -- Other Non-Acute Glaucoma,0.074
+Rx_CE_LTI_RXHCC260,Rx_CE_LTI_RXHCC260 -- Kidney Transplant Status,0.056
+Rx_CE_LTI_RXHCC261,"Rx_CE_LTI_RXHCC261 -- Dialysis Status, Including End Stage Renal Disease",0
+Rx_CE_LTI_RXHCC262,Rx_CE_LTI_RXHCC262 -- Chronic Kidney Disease Stage 5,0
+Rx_CE_LTI_RXHCC263,Rx_CE_LTI_RXHCC263 -- Chronic Kidney Disease Stage 4,0
+Rx_CE_LTI_RXHCC311,"Rx_CE_LTI_RXHCC311 -- Chronic Ulcer of Skin, Except Pressure",0.076
+Rx_CE_LTI_RXHCC314,"Rx_CE_LTI_RXHCC314 -- Pemphigus, Pemphigoid, and Other Bullous Skin Disorders",0.243
+Rx_CE_LTI_RXHCC316,"Rx_CE_LTI_RXHCC316 -- Psoriasis, Except with Arthropathy",1.17
+Rx_CE_LTI_RXHCC317,Rx_CE_LTI_RXHCC317 -- Discoid Lupus Erythematosus,0
+Rx_CE_LTI_RXHCC355,Rx_CE_LTI_RXHCC355 -- Narcolepsy and Cataplexy,0.932
+Rx_CE_LTI_RXHCC395,"Rx_CE_LTI_RXHCC395 -- Stem Cell, Including Bone Marrow, Transplant Status/Complications",3.189
+Rx_CE_LTI_RXHCC396,"Rx_CE_LTI_RXHCC396 -- Heart, Lung, Liver, Intestine, or Pancreas Transplant Status",0.056
+Rx_CE_LTI_NonAged_RXHCC1,Rx_CE_LTI_NonAged_RXHCC1 -- NonAged * HIV/AIDS,1.491
+Rx_CE_LTI_NonAged_RXHCC130,Rx_CE_LTI_NonAged_RXHCC130 -- NonAged * Schizophrenia and Other Psychosis,1.054
+Rx_CE_LTI_NonAged_RXHCC131,Rx_CE_LTI_NonAged_RXHCC131 -- NonAged * Bipolar Disorders,0.705
+Rx_CE_LTI_NonAged_RXHCC132,Rx_CE_LTI_NonAged_RXHCC132 -- NonAged * Depression,0.354
+Rx_CE_LTI_NonAged_RXHCC133,Rx_CE_LTI_NonAged_RXHCC133 -- NonAged * Anxiety and Other Psychiatric Disorders,0.126
+Rx_CE_LTI_NonAged_RXHCC159,Rx_CE_LTI_NonAged_RXHCC159 -- NonAged * Multiple Sclerosis,2.386
+Rx_CE_LTI_NonAged_RXHCC163,Rx_CE_LTI_NonAged_RXHCC163 -- NonAged * Intractable Epilepsy,0.348
+Rx_NE_NoLo_NESRD_NOD_x_F0_34,"Rx_NE_NoLo_NESRD_NOD_x_F0_34 -- Female, age 0 - 34, not concurrently ESRD, not originally disabled",1.693
+Rx_NE_NoLo_NESRD_NOD_x_F35_44,"Rx_NE_NoLo_NESRD_NOD_x_F35_44 -- Female, age 35 - 44, not concurrently ESRD, not originally disabled",1.693
+Rx_NE_NoLo_NESRD_NOD_x_F45_54,"Rx_NE_NoLo_NESRD_NOD_x_F45_54 -- Female, age 45 - 54, not concurrently ESRD, not originally disabled",1.306
+Rx_NE_NoLo_NESRD_NOD_x_F55_59,"Rx_NE_NoLo_NESRD_NOD_x_F55_59 -- Female, age 55 - 59, not concurrently ESRD, not originally disabled",1.306
+Rx_NE_NoLo_NESRD_NOD_x_F60_64,"Rx_NE_NoLo_NESRD_NOD_x_F60_64 -- Female, age 60 - 64, not concurrently ESRD, not originally disabled",1.306
+Rx_NE_NoLo_NESRD_NOD_x_F65,"Rx_NE_NoLo_NESRD_NOD_x_F65 -- Female, age 65, not concurrently ESRD, not originally disabled",0.388
+Rx_NE_NoLo_NESRD_NOD_x_F66,"Rx_NE_NoLo_NESRD_NOD_x_F66 -- Female, age 66, not concurrently ESRD, not originally disabled",0.414
+Rx_NE_NoLo_NESRD_NOD_x_F67,"Rx_NE_NoLo_NESRD_NOD_x_F67 -- Female, age 67, not concurrently ESRD, not originally disabled",0.414
+Rx_NE_NoLo_NESRD_NOD_x_F68,"Rx_NE_NoLo_NESRD_NOD_x_F68 -- Female, age 68, not concurrently ESRD, not originally disabled",0.458
+Rx_NE_NoLo_NESRD_NOD_x_F69,"Rx_NE_NoLo_NESRD_NOD_x_F69 -- Female, age 69, not concurrently ESRD, not originally disabled",0.458
+Rx_NE_NoLo_NESRD_NOD_x_F70_74,"Rx_NE_NoLo_NESRD_NOD_x_F70_74 -- Female, age 70 - 74, not concurrently ESRD, not originally disabled",0.483
+Rx_NE_NoLo_NESRD_NOD_x_F75_79,"Rx_NE_NoLo_NESRD_NOD_x_F75_79 -- Female, age 75 - 79, not concurrently ESRD, not originally disabled",0.515
+Rx_NE_NoLo_NESRD_NOD_x_F80_84,"Rx_NE_NoLo_NESRD_NOD_x_F80_84 -- Female, age 80 - 84, not concurrently ESRD, not originally disabled",0.547
+Rx_NE_NoLo_NESRD_NOD_x_F85_89,"Rx_NE_NoLo_NESRD_NOD_x_F85_89 -- Female, age 85 - 89, not concurrently ESRD, not originally disabled",0.42
+Rx_NE_NoLo_NESRD_NOD_x_F90_94,"Rx_NE_NoLo_NESRD_NOD_x_F90_94 -- Female, age 90 - 94, not concurrently ESRD, not originally disabled",0.249
+Rx_NE_NoLo_NESRD_NOD_x_F95_GT,"Rx_NE_NoLo_NESRD_NOD_x_F95_GT -- Female, age 95 -, not concurrently ESRD, not originally disabled",0.249
+Rx_NE_NoLo_NESRD_NOD_x_M0_34,"Rx_NE_NoLo_NESRD_NOD_x_M0_34 -- Male, age 0 - 34, not concurrently ESRD, not originally disabled",1.069
+Rx_NE_NoLo_NESRD_NOD_x_M35_44,"Rx_NE_NoLo_NESRD_NOD_x_M35_44 -- Male, age 35 - 44, not concurrently ESRD, not originally disabled",1.069
+Rx_NE_NoLo_NESRD_NOD_x_M45_54,"Rx_NE_NoLo_NESRD_NOD_x_M45_54 -- Male, age 45 - 54, not concurrently ESRD, not originally disabled",1.251
+Rx_NE_NoLo_NESRD_NOD_x_M55_59,"Rx_NE_NoLo_NESRD_NOD_x_M55_59 -- Male, age 55 - 59, not concurrently ESRD, not originally disabled",1.251
+Rx_NE_NoLo_NESRD_NOD_x_M60_64,"Rx_NE_NoLo_NESRD_NOD_x_M60_64 -- Male, age 60 - 64, not concurrently ESRD, not originally disabled",1.251
+Rx_NE_NoLo_NESRD_NOD_x_M65,"Rx_NE_NoLo_NESRD_NOD_x_M65 -- Male, age 65, not concurrently ESRD, not originally disabled",0.478
+Rx_NE_NoLo_NESRD_NOD_x_M66,"Rx_NE_NoLo_NESRD_NOD_x_M66 -- Male, age 66, not concurrently ESRD, not originally disabled",0.507
+Rx_NE_NoLo_NESRD_NOD_x_M67,"Rx_NE_NoLo_NESRD_NOD_x_M67 -- Male, age 67, not concurrently ESRD, not originally disabled",0.527
+Rx_NE_NoLo_NESRD_NOD_x_M68,"Rx_NE_NoLo_NESRD_NOD_x_M68 -- Male, age 68, not concurrently ESRD, not originally disabled",0.541
+Rx_NE_NoLo_NESRD_NOD_x_M69,"Rx_NE_NoLo_NESRD_NOD_x_M69 -- Male, age 69, not concurrently ESRD, not originally disabled",0.594
+Rx_NE_NoLo_NESRD_NOD_x_M70_74,"Rx_NE_NoLo_NESRD_NOD_x_M70_74 -- Male, age 70 - 74, not concurrently ESRD, not originally disabled",0.599
+Rx_NE_NoLo_NESRD_NOD_x_M75_79,"Rx_NE_NoLo_NESRD_NOD_x_M75_79 -- Male, age 75 - 79, not concurrently ESRD, not originally disabled",0.706
+Rx_NE_NoLo_NESRD_NOD_x_M80_84,"Rx_NE_NoLo_NESRD_NOD_x_M80_84 -- Male, age 80 - 84, not concurrently ESRD, not originally disabled",0.706
+Rx_NE_NoLo_NESRD_NOD_x_M85_89,"Rx_NE_NoLo_NESRD_NOD_x_M85_89 -- Male, age 85 - 89, not concurrently ESRD, not originally disabled",0.858
+Rx_NE_NoLo_NESRD_NOD_x_M90_94,"Rx_NE_NoLo_NESRD_NOD_x_M90_94 -- Male, age 90 - 94, not concurrently ESRD, not originally disabled",0.858
+Rx_NE_NoLo_NESRD_NOD_x_M95_GT,"Rx_NE_NoLo_NESRD_NOD_x_M95_GT -- Male, age 95 -, not concurrently ESRD, not originally disabled",0.858
+Rx_NE_NoLo_ESRD_NOD_x_F0_34,"Rx_NE_NoLo_ESRD_NOD_x_F0_34 -- Female, age 0 - 34, concurrently ESRD, not originally disabled",1.693
+Rx_NE_NoLo_ESRD_NOD_x_F35_44,"Rx_NE_NoLo_ESRD_NOD_x_F35_44 -- Female, age 35 - 44, concurrently ESRD, not originally disabled",1.693
+Rx_NE_NoLo_ESRD_NOD_x_F45_54,"Rx_NE_NoLo_ESRD_NOD_x_F45_54 -- Female, age 45 - 54, concurrently ESRD, not originally disabled",1.306
+Rx_NE_NoLo_ESRD_NOD_x_F55_59,"Rx_NE_NoLo_ESRD_NOD_x_F55_59 -- Female, age 55 - 59, concurrently ESRD, not originally disabled",1.306
+Rx_NE_NoLo_ESRD_NOD_x_F60_64,"Rx_NE_NoLo_ESRD_NOD_x_F60_64 -- Female, age 60 - 64, concurrently ESRD, not originally disabled",1.306
+Rx_NE_NoLo_ESRD_NOD_x_F65,"Rx_NE_NoLo_ESRD_NOD_x_F65 -- Female, age 65, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F66,"Rx_NE_NoLo_ESRD_NOD_x_F66 -- Female, age 66, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F67,"Rx_NE_NoLo_ESRD_NOD_x_F67 -- Female, age 67, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F68,"Rx_NE_NoLo_ESRD_NOD_x_F68 -- Female, age 68, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F69,"Rx_NE_NoLo_ESRD_NOD_x_F69 -- Female, age 69, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F70_74,"Rx_NE_NoLo_ESRD_NOD_x_F70_74 -- Female, age 70 - 74, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F75_79,"Rx_NE_NoLo_ESRD_NOD_x_F75_79 -- Female, age 75 - 79, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F80_84,"Rx_NE_NoLo_ESRD_NOD_x_F80_84 -- Female, age 80 - 84, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F85_89,"Rx_NE_NoLo_ESRD_NOD_x_F85_89 -- Female, age 85 - 89, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F90_94,"Rx_NE_NoLo_ESRD_NOD_x_F90_94 -- Female, age 90 - 94, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_F95_GT,"Rx_NE_NoLo_ESRD_NOD_x_F95_GT -- Female, age 95 -, concurrently ESRD, not originally disabled",1.019
+Rx_NE_NoLo_ESRD_NOD_x_M0_34,"Rx_NE_NoLo_ESRD_NOD_x_M0_34 -- Male, age 0 - 34, concurrently ESRD, not originally disabled",1.069
+Rx_NE_NoLo_ESRD_NOD_x_M35_44,"Rx_NE_NoLo_ESRD_NOD_x_M35_44 -- Male, age 35 - 44, concurrently ESRD, not originally disabled",1.069
+Rx_NE_NoLo_ESRD_NOD_x_M45_54,"Rx_NE_NoLo_ESRD_NOD_x_M45_54 -- Male, age 45 - 54, concurrently ESRD, not originally disabled",1.251
+Rx_NE_NoLo_ESRD_NOD_x_M55_59,"Rx_NE_NoLo_ESRD_NOD_x_M55_59 -- Male, age 55 - 59, concurrently ESRD, not originally disabled",1.251
+Rx_NE_NoLo_ESRD_NOD_x_M60_64,"Rx_NE_NoLo_ESRD_NOD_x_M60_64 -- Male, age 60 - 64, concurrently ESRD, not originally disabled",1.251
+Rx_NE_NoLo_ESRD_NOD_x_M65,"Rx_NE_NoLo_ESRD_NOD_x_M65 -- Male, age 65, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M66,"Rx_NE_NoLo_ESRD_NOD_x_M66 -- Male, age 66, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M67,"Rx_NE_NoLo_ESRD_NOD_x_M67 -- Male, age 67, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M68,"Rx_NE_NoLo_ESRD_NOD_x_M68 -- Male, age 68, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M69,"Rx_NE_NoLo_ESRD_NOD_x_M69 -- Male, age 69, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M70_74,"Rx_NE_NoLo_ESRD_NOD_x_M70_74 -- Male, age 70 - 74, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M75_79,"Rx_NE_NoLo_ESRD_NOD_x_M75_79 -- Male, age 75 - 79, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M80_84,"Rx_NE_NoLo_ESRD_NOD_x_M80_84 -- Male, age 80 - 84, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M85_89,"Rx_NE_NoLo_ESRD_NOD_x_M85_89 -- Male, age 85 - 89, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M90_94,"Rx_NE_NoLo_ESRD_NOD_x_M90_94 -- Male, age 90 - 94, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_ESRD_NOD_x_M95_GT,"Rx_NE_NoLo_ESRD_NOD_x_M95_GT -- Male, age 95 -, concurrently ESRD, not originally disabled",1.269
+Rx_NE_NoLo_NESRD_OD_x_F65,"Rx_NE_NoLo_NESRD_OD_x_F65 -- Female, age 65, not concurrently ESRD, originally disabled",1.03
+Rx_NE_NoLo_NESRD_OD_x_F66,"Rx_NE_NoLo_NESRD_OD_x_F66 -- Female, age 66, not concurrently ESRD, originally disabled",0.991
+Rx_NE_NoLo_NESRD_OD_x_F67,"Rx_NE_NoLo_NESRD_OD_x_F67 -- Female, age 67, not concurrently ESRD, originally disabled",0.842
+Rx_NE_NoLo_NESRD_OD_x_F68,"Rx_NE_NoLo_NESRD_OD_x_F68 -- Female, age 68, not concurrently ESRD, originally disabled",0.879
+Rx_NE_NoLo_NESRD_OD_x_F69,"Rx_NE_NoLo_NESRD_OD_x_F69 -- Female, age 69, not concurrently ESRD, originally disabled",0.921
+Rx_NE_NoLo_NESRD_OD_x_F70_74,"Rx_NE_NoLo_NESRD_OD_x_F70_74 -- Female, age 70 - 74, not concurrently ESRD, originally disabled",1.005
+Rx_NE_NoLo_NESRD_OD_x_F75_79,"Rx_NE_NoLo_NESRD_OD_x_F75_79 -- Female, age 75 - 79, not concurrently ESRD, originally disabled",0.845
+Rx_NE_NoLo_NESRD_OD_x_F80_84,"Rx_NE_NoLo_NESRD_OD_x_F80_84 -- Female, age 80 - 84, not concurrently ESRD, originally disabled",0.65
+Rx_NE_NoLo_NESRD_OD_x_F85_89,"Rx_NE_NoLo_NESRD_OD_x_F85_89 -- Female, age 85 - 89, not concurrently ESRD, originally disabled",0.42
+Rx_NE_NoLo_NESRD_OD_x_F90_94,"Rx_NE_NoLo_NESRD_OD_x_F90_94 -- Female, age 90 - 94, not concurrently ESRD, originally disabled",0.249
+Rx_NE_NoLo_NESRD_OD_x_F95_GT,"Rx_NE_NoLo_NESRD_OD_x_F95_GT -- Female, age 95 -, not concurrently ESRD, originally disabled",0.249
+Rx_NE_NoLo_NESRD_OD_x_M65,"Rx_NE_NoLo_NESRD_OD_x_M65 -- Male, age 65, not concurrently ESRD, originally disabled",1.061
+Rx_NE_NoLo_NESRD_OD_x_M66,"Rx_NE_NoLo_NESRD_OD_x_M66 -- Male, age 66, not concurrently ESRD, originally disabled",1.145
+Rx_NE_NoLo_NESRD_OD_x_M67,"Rx_NE_NoLo_NESRD_OD_x_M67 -- Male, age 67, not concurrently ESRD, originally disabled",1.145
+Rx_NE_NoLo_NESRD_OD_x_M68,"Rx_NE_NoLo_NESRD_OD_x_M68 -- Male, age 68, not concurrently ESRD, originally disabled",1.049
+Rx_NE_NoLo_NESRD_OD_x_M69,"Rx_NE_NoLo_NESRD_OD_x_M69 -- Male, age 69, not concurrently ESRD, originally disabled",1.012
+Rx_NE_NoLo_NESRD_OD_x_M70_74,"Rx_NE_NoLo_NESRD_OD_x_M70_74 -- Male, age 70 - 74, not concurrently ESRD, originally disabled",0.889
+Rx_NE_NoLo_NESRD_OD_x_M75_79,"Rx_NE_NoLo_NESRD_OD_x_M75_79 -- Male, age 75 - 79, not concurrently ESRD, originally disabled",0.706
+Rx_NE_NoLo_NESRD_OD_x_M80_84,"Rx_NE_NoLo_NESRD_OD_x_M80_84 -- Male, age 80 - 84, not concurrently ESRD, originally disabled",0.706
+Rx_NE_NoLo_NESRD_OD_x_M85_89,"Rx_NE_NoLo_NESRD_OD_x_M85_89 -- Male, age 85 - 89, not concurrently ESRD, originally disabled",0.858
+Rx_NE_NoLo_NESRD_OD_x_M90_94,"Rx_NE_NoLo_NESRD_OD_x_M90_94 -- Male, age 90 - 94, not concurrently ESRD, originally disabled",0.858
+Rx_NE_NoLo_NESRD_OD_x_M95_GT,"Rx_NE_NoLo_NESRD_OD_x_M95_GT -- Male, age 95 -, not concurrently ESRD, originally disabled",0.858
+Rx_NE_NoLo_ESRD_OD_x_F65,"Rx_NE_NoLo_ESRD_OD_x_F65 -- Female, age 65, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F66,"Rx_NE_NoLo_ESRD_OD_x_F66 -- Female, age 66, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F67,"Rx_NE_NoLo_ESRD_OD_x_F67 -- Female, age 67, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F68,"Rx_NE_NoLo_ESRD_OD_x_F68 -- Female, age 68, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F69,"Rx_NE_NoLo_ESRD_OD_x_F69 -- Female, age 69, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F70_74,"Rx_NE_NoLo_ESRD_OD_x_F70_74 -- Female, age 70 - 74, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F75_79,"Rx_NE_NoLo_ESRD_OD_x_F75_79 -- Female, age 75 - 79, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F80_84,"Rx_NE_NoLo_ESRD_OD_x_F80_84 -- Female, age 80 - 84, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F85_89,"Rx_NE_NoLo_ESRD_OD_x_F85_89 -- Female, age 85 - 89, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F90_94,"Rx_NE_NoLo_ESRD_OD_x_F90_94 -- Female, age 90 - 94, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_F95_GT,"Rx_NE_NoLo_ESRD_OD_x_F95_GT -- Female, age 95 -, concurrently ESRD, originally disabled",1.019
+Rx_NE_NoLo_ESRD_OD_x_M65,"Rx_NE_NoLo_ESRD_OD_x_M65 -- Male, age 65, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M66,"Rx_NE_NoLo_ESRD_OD_x_M66 -- Male, age 66, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M67,"Rx_NE_NoLo_ESRD_OD_x_M67 -- Male, age 67, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M68,"Rx_NE_NoLo_ESRD_OD_x_M68 -- Male, age 68, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M69,"Rx_NE_NoLo_ESRD_OD_x_M69 -- Male, age 69, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M70_74,"Rx_NE_NoLo_ESRD_OD_x_M70_74 -- Male, age 70 - 74, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M75_79,"Rx_NE_NoLo_ESRD_OD_x_M75_79 -- Male, age 75 - 79, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M80_84,"Rx_NE_NoLo_ESRD_OD_x_M80_84 -- Male, age 80 - 84, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M85_89,"Rx_NE_NoLo_ESRD_OD_x_M85_89 -- Male, age 85 - 89, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M90_94,"Rx_NE_NoLo_ESRD_OD_x_M90_94 -- Male, age 90 - 94, concurrently ESRD, originally disabled",1.269
+Rx_NE_NoLo_ESRD_OD_x_M95_GT,"Rx_NE_NoLo_ESRD_OD_x_M95_GT -- Male, age 95 -, concurrently ESRD, originally disabled",1.269
+Rx_NE_Lo_NESRD_NOD_x_F0_34,"Rx_NE_Lo_NESRD_NOD_x_F0_34 -- Female, age 0 - 34, not concurrently ESRD, not originally disabled",2.835
+Rx_NE_Lo_NESRD_NOD_x_F35_44,"Rx_NE_Lo_NESRD_NOD_x_F35_44 -- Female, age 35 - 44, not concurrently ESRD, not originally disabled",2.835
+Rx_NE_Lo_NESRD_NOD_x_F45_54,"Rx_NE_Lo_NESRD_NOD_x_F45_54 -- Female, age 45 - 54, not concurrently ESRD, not originally disabled",2.835
+Rx_NE_Lo_NESRD_NOD_x_F55_59,"Rx_NE_Lo_NESRD_NOD_x_F55_59 -- Female, age 55 - 59, not concurrently ESRD, not originally disabled",2.516
+Rx_NE_Lo_NESRD_NOD_x_F60_64,"Rx_NE_Lo_NESRD_NOD_x_F60_64 -- Female, age 60 - 64, not concurrently ESRD, not originally disabled",2.516
+Rx_NE_Lo_NESRD_NOD_x_F65,"Rx_NE_Lo_NESRD_NOD_x_F65 -- Female, age 65, not concurrently ESRD, not originally disabled",1.254
+Rx_NE_Lo_NESRD_NOD_x_F66,"Rx_NE_Lo_NESRD_NOD_x_F66 -- Female, age 66, not concurrently ESRD, not originally disabled",0.882
+Rx_NE_Lo_NESRD_NOD_x_F67,"Rx_NE_Lo_NESRD_NOD_x_F67 -- Female, age 67, not concurrently ESRD, not originally disabled",0.851
+Rx_NE_Lo_NESRD_NOD_x_F68,"Rx_NE_Lo_NESRD_NOD_x_F68 -- Female, age 68, not concurrently ESRD, not originally disabled",0.825
+Rx_NE_Lo_NESRD_NOD_x_F69,"Rx_NE_Lo_NESRD_NOD_x_F69 -- Female, age 69, not concurrently ESRD, not originally disabled",0.787
+Rx_NE_Lo_NESRD_NOD_x_F70_74,"Rx_NE_Lo_NESRD_NOD_x_F70_74 -- Female, age 70 - 74, not concurrently ESRD, not originally disabled",0.772
+Rx_NE_Lo_NESRD_NOD_x_F75_79,"Rx_NE_Lo_NESRD_NOD_x_F75_79 -- Female, age 75 - 79, not concurrently ESRD, not originally disabled",0.72
+Rx_NE_Lo_NESRD_NOD_x_F80_84,"Rx_NE_Lo_NESRD_NOD_x_F80_84 -- Female, age 80 - 84, not concurrently ESRD, not originally disabled",0.686
+Rx_NE_Lo_NESRD_NOD_x_F85_89,"Rx_NE_Lo_NESRD_NOD_x_F85_89 -- Female, age 85 - 89, not concurrently ESRD, not originally disabled",0.686
+Rx_NE_Lo_NESRD_NOD_x_F90_94,"Rx_NE_Lo_NESRD_NOD_x_F90_94 -- Female, age 90 - 94, not concurrently ESRD, not originally disabled",0.415
+Rx_NE_Lo_NESRD_NOD_x_F95_GT,"Rx_NE_Lo_NESRD_NOD_x_F95_GT -- Female, age 95 -, not concurrently ESRD, not originally disabled",0.415
+Rx_NE_Lo_NESRD_NOD_x_M0_34,"Rx_NE_Lo_NESRD_NOD_x_M0_34 -- Male, age 0 - 34, not concurrently ESRD, not originally disabled",2.066
+Rx_NE_Lo_NESRD_NOD_x_M35_44,"Rx_NE_Lo_NESRD_NOD_x_M35_44 -- Male, age 35 - 44, not concurrently ESRD, not originally disabled",2.066
+Rx_NE_Lo_NESRD_NOD_x_M45_54,"Rx_NE_Lo_NESRD_NOD_x_M45_54 -- Male, age 45 - 54, not concurrently ESRD, not originally disabled",2.066
+Rx_NE_Lo_NESRD_NOD_x_M55_59,"Rx_NE_Lo_NESRD_NOD_x_M55_59 -- Male, age 55 - 59, not concurrently ESRD, not originally disabled",2.1
+Rx_NE_Lo_NESRD_NOD_x_M60_64,"Rx_NE_Lo_NESRD_NOD_x_M60_64 -- Male, age 60 - 64, not concurrently ESRD, not originally disabled",2
+Rx_NE_Lo_NESRD_NOD_x_M65,"Rx_NE_Lo_NESRD_NOD_x_M65 -- Male, age 65, not concurrently ESRD, not originally disabled",1.172
+Rx_NE_Lo_NESRD_NOD_x_M66,"Rx_NE_Lo_NESRD_NOD_x_M66 -- Male, age 66, not concurrently ESRD, not originally disabled",0.832
+Rx_NE_Lo_NESRD_NOD_x_M67,"Rx_NE_Lo_NESRD_NOD_x_M67 -- Male, age 67, not concurrently ESRD, not originally disabled",0.832
+Rx_NE_Lo_NESRD_NOD_x_M68,"Rx_NE_Lo_NESRD_NOD_x_M68 -- Male, age 68, not concurrently ESRD, not originally disabled",0.775
+Rx_NE_Lo_NESRD_NOD_x_M69,"Rx_NE_Lo_NESRD_NOD_x_M69 -- Male, age 69, not concurrently ESRD, not originally disabled",0.731
+Rx_NE_Lo_NESRD_NOD_x_M70_74,"Rx_NE_Lo_NESRD_NOD_x_M70_74 -- Male, age 70 - 74, not concurrently ESRD, not originally disabled",0.672
+Rx_NE_Lo_NESRD_NOD_x_M75_79,"Rx_NE_Lo_NESRD_NOD_x_M75_79 -- Male, age 75 - 79, not concurrently ESRD, not originally disabled",0.672
+Rx_NE_Lo_NESRD_NOD_x_M80_84,"Rx_NE_Lo_NESRD_NOD_x_M80_84 -- Male, age 80 - 84, not concurrently ESRD, not originally disabled",0.652
+Rx_NE_Lo_NESRD_NOD_x_M85_89,"Rx_NE_Lo_NESRD_NOD_x_M85_89 -- Male, age 85 - 89, not concurrently ESRD, not originally disabled",0.652
+Rx_NE_Lo_NESRD_NOD_x_M90_94,"Rx_NE_Lo_NESRD_NOD_x_M90_94 -- Male, age 90 - 94, not concurrently ESRD, not originally disabled",0.406
+Rx_NE_Lo_NESRD_NOD_x_M95_GT,"Rx_NE_Lo_NESRD_NOD_x_M95_GT -- Male, age 95 -, not concurrently ESRD, not originally disabled",0.406
+Rx_NE_Lo_ESRD_NOD_x_F0_34,"Rx_NE_Lo_ESRD_NOD_x_F0_34 -- Female, age 0 - 34, concurrently ESRD, not originally disabled",2.835
+Rx_NE_Lo_ESRD_NOD_x_F35_44,"Rx_NE_Lo_ESRD_NOD_x_F35_44 -- Female, age 35 - 44, concurrently ESRD, not originally disabled",2.835
+Rx_NE_Lo_ESRD_NOD_x_F45_54,"Rx_NE_Lo_ESRD_NOD_x_F45_54 -- Female, age 45 - 54, concurrently ESRD, not originally disabled",2.835
+Rx_NE_Lo_ESRD_NOD_x_F55_59,"Rx_NE_Lo_ESRD_NOD_x_F55_59 -- Female, age 55 - 59, concurrently ESRD, not originally disabled",2.516
+Rx_NE_Lo_ESRD_NOD_x_F60_64,"Rx_NE_Lo_ESRD_NOD_x_F60_64 -- Female, age 60 - 64, concurrently ESRD, not originally disabled",2.516
+Rx_NE_Lo_ESRD_NOD_x_F65,"Rx_NE_Lo_ESRD_NOD_x_F65 -- Female, age 65, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F66,"Rx_NE_Lo_ESRD_NOD_x_F66 -- Female, age 66, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F67,"Rx_NE_Lo_ESRD_NOD_x_F67 -- Female, age 67, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F68,"Rx_NE_Lo_ESRD_NOD_x_F68 -- Female, age 68, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F69,"Rx_NE_Lo_ESRD_NOD_x_F69 -- Female, age 69, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F70_74,"Rx_NE_Lo_ESRD_NOD_x_F70_74 -- Female, age 70 - 74, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F75_79,"Rx_NE_Lo_ESRD_NOD_x_F75_79 -- Female, age 75 - 79, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F80_84,"Rx_NE_Lo_ESRD_NOD_x_F80_84 -- Female, age 80 - 84, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F85_89,"Rx_NE_Lo_ESRD_NOD_x_F85_89 -- Female, age 85 - 89, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F90_94,"Rx_NE_Lo_ESRD_NOD_x_F90_94 -- Female, age 90 - 94, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_F95_GT,"Rx_NE_Lo_ESRD_NOD_x_F95_GT -- Female, age 95 -, concurrently ESRD, not originally disabled",2.387
+Rx_NE_Lo_ESRD_NOD_x_M0_34,"Rx_NE_Lo_ESRD_NOD_x_M0_34 -- Male, age 0 - 34, concurrently ESRD, not originally disabled",2.066
+Rx_NE_Lo_ESRD_NOD_x_M35_44,"Rx_NE_Lo_ESRD_NOD_x_M35_44 -- Male, age 35 - 44, concurrently ESRD, not originally disabled",2.066
+Rx_NE_Lo_ESRD_NOD_x_M45_54,"Rx_NE_Lo_ESRD_NOD_x_M45_54 -- Male, age 45 - 54, concurrently ESRD, not originally disabled",2.066
+Rx_NE_Lo_ESRD_NOD_x_M55_59,"Rx_NE_Lo_ESRD_NOD_x_M55_59 -- Male, age 55 - 59, concurrently ESRD, not originally disabled",2.207
+Rx_NE_Lo_ESRD_NOD_x_M60_64,"Rx_NE_Lo_ESRD_NOD_x_M60_64 -- Male, age 60 - 64, concurrently ESRD, not originally disabled",2.371
+Rx_NE_Lo_ESRD_NOD_x_M65,"Rx_NE_Lo_ESRD_NOD_x_M65 -- Male, age 65, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M66,"Rx_NE_Lo_ESRD_NOD_x_M66 -- Male, age 66, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M67,"Rx_NE_Lo_ESRD_NOD_x_M67 -- Male, age 67, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M68,"Rx_NE_Lo_ESRD_NOD_x_M68 -- Male, age 68, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M69,"Rx_NE_Lo_ESRD_NOD_x_M69 -- Male, age 69, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M70_74,"Rx_NE_Lo_ESRD_NOD_x_M70_74 -- Male, age 70 - 74, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M75_79,"Rx_NE_Lo_ESRD_NOD_x_M75_79 -- Male, age 75 - 79, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M80_84,"Rx_NE_Lo_ESRD_NOD_x_M80_84 -- Male, age 80 - 84, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M85_89,"Rx_NE_Lo_ESRD_NOD_x_M85_89 -- Male, age 85 - 89, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M90_94,"Rx_NE_Lo_ESRD_NOD_x_M90_94 -- Male, age 90 - 94, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_ESRD_NOD_x_M95_GT,"Rx_NE_Lo_ESRD_NOD_x_M95_GT -- Male, age 95 -, concurrently ESRD, not originally disabled",2.183
+Rx_NE_Lo_NESRD_OD_x_F65,"Rx_NE_Lo_NESRD_OD_x_F65 -- Female, age 65, not concurrently ESRD, originally disabled",2.12
+Rx_NE_Lo_NESRD_OD_x_F66,"Rx_NE_Lo_NESRD_OD_x_F66 -- Female, age 66, not concurrently ESRD, originally disabled",1.25
+Rx_NE_Lo_NESRD_OD_x_F67,"Rx_NE_Lo_NESRD_OD_x_F67 -- Female, age 67, not concurrently ESRD, originally disabled",1.092
+Rx_NE_Lo_NESRD_OD_x_F68,"Rx_NE_Lo_NESRD_OD_x_F68 -- Female, age 68, not concurrently ESRD, originally disabled",1.073
+Rx_NE_Lo_NESRD_OD_x_F69,"Rx_NE_Lo_NESRD_OD_x_F69 -- Female, age 69, not concurrently ESRD, originally disabled",1.073
+Rx_NE_Lo_NESRD_OD_x_F70_74,"Rx_NE_Lo_NESRD_OD_x_F70_74 -- Female, age 70 - 74, not concurrently ESRD, originally disabled",1.073
+Rx_NE_Lo_NESRD_OD_x_F75_79,"Rx_NE_Lo_NESRD_OD_x_F75_79 -- Female, age 75 - 79, not concurrently ESRD, originally disabled",0.902
+Rx_NE_Lo_NESRD_OD_x_F80_84,"Rx_NE_Lo_NESRD_OD_x_F80_84 -- Female, age 80 - 84, not concurrently ESRD, originally disabled",0.686
+Rx_NE_Lo_NESRD_OD_x_F85_89,"Rx_NE_Lo_NESRD_OD_x_F85_89 -- Female, age 85 - 89, not concurrently ESRD, originally disabled",0.686
+Rx_NE_Lo_NESRD_OD_x_F90_94,"Rx_NE_Lo_NESRD_OD_x_F90_94 -- Female, age 90 - 94, not concurrently ESRD, originally disabled",0.415
+Rx_NE_Lo_NESRD_OD_x_F95_GT,"Rx_NE_Lo_NESRD_OD_x_F95_GT -- Female, age 95 -, not concurrently ESRD, originally disabled",0.415
+Rx_NE_Lo_NESRD_OD_x_M65,"Rx_NE_Lo_NESRD_OD_x_M65 -- Male, age 65, not concurrently ESRD, originally disabled",1.685
+Rx_NE_Lo_NESRD_OD_x_M66,"Rx_NE_Lo_NESRD_OD_x_M66 -- Male, age 66, not concurrently ESRD, originally disabled",1.132
+Rx_NE_Lo_NESRD_OD_x_M67,"Rx_NE_Lo_NESRD_OD_x_M67 -- Male, age 67, not concurrently ESRD, originally disabled",1.132
+Rx_NE_Lo_NESRD_OD_x_M68,"Rx_NE_Lo_NESRD_OD_x_M68 -- Male, age 68, not concurrently ESRD, originally disabled",0.815
+Rx_NE_Lo_NESRD_OD_x_M69,"Rx_NE_Lo_NESRD_OD_x_M69 -- Male, age 69, not concurrently ESRD, originally disabled",0.769
+Rx_NE_Lo_NESRD_OD_x_M70_74,"Rx_NE_Lo_NESRD_OD_x_M70_74 -- Male, age 70 - 74, not concurrently ESRD, originally disabled",0.672
+Rx_NE_Lo_NESRD_OD_x_M75_79,"Rx_NE_Lo_NESRD_OD_x_M75_79 -- Male, age 75 - 79, not concurrently ESRD, originally disabled",0.672
+Rx_NE_Lo_NESRD_OD_x_M80_84,"Rx_NE_Lo_NESRD_OD_x_M80_84 -- Male, age 80 - 84, not concurrently ESRD, originally disabled",0.652
+Rx_NE_Lo_NESRD_OD_x_M85_89,"Rx_NE_Lo_NESRD_OD_x_M85_89 -- Male, age 85 - 89, not concurrently ESRD, originally disabled",0.652
+Rx_NE_Lo_NESRD_OD_x_M90_94,"Rx_NE_Lo_NESRD_OD_x_M90_94 -- Male, age 90 - 94, not concurrently ESRD, originally disabled",0.406
+Rx_NE_Lo_NESRD_OD_x_M95_GT,"Rx_NE_Lo_NESRD_OD_x_M95_GT -- Male, age 95 -, not concurrently ESRD, originally disabled",0.406
+Rx_NE_Lo_ESRD_OD_x_F65,"Rx_NE_Lo_ESRD_OD_x_F65 -- Female, age 65, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F66,"Rx_NE_Lo_ESRD_OD_x_F66 -- Female, age 66, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F67,"Rx_NE_Lo_ESRD_OD_x_F67 -- Female, age 67, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F68,"Rx_NE_Lo_ESRD_OD_x_F68 -- Female, age 68, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F69,"Rx_NE_Lo_ESRD_OD_x_F69 -- Female, age 69, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F70_74,"Rx_NE_Lo_ESRD_OD_x_F70_74 -- Female, age 70 - 74, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F75_79,"Rx_NE_Lo_ESRD_OD_x_F75_79 -- Female, age 75 - 79, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F80_84,"Rx_NE_Lo_ESRD_OD_x_F80_84 -- Female, age 80 - 84, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F85_89,"Rx_NE_Lo_ESRD_OD_x_F85_89 -- Female, age 85 - 89, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F90_94,"Rx_NE_Lo_ESRD_OD_x_F90_94 -- Female, age 90 - 94, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_F95_GT,"Rx_NE_Lo_ESRD_OD_x_F95_GT -- Female, age 95 -, concurrently ESRD, originally disabled",2.387
+Rx_NE_Lo_ESRD_OD_x_M65,"Rx_NE_Lo_ESRD_OD_x_M65 -- Male, age 65, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M66,"Rx_NE_Lo_ESRD_OD_x_M66 -- Male, age 66, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M67,"Rx_NE_Lo_ESRD_OD_x_M67 -- Male, age 67, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M68,"Rx_NE_Lo_ESRD_OD_x_M68 -- Male, age 68, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M69,"Rx_NE_Lo_ESRD_OD_x_M69 -- Male, age 69, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M70_74,"Rx_NE_Lo_ESRD_OD_x_M70_74 -- Male, age 70 - 74, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M75_79,"Rx_NE_Lo_ESRD_OD_x_M75_79 -- Male, age 75 - 79, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M80_84,"Rx_NE_Lo_ESRD_OD_x_M80_84 -- Male, age 80 - 84, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M85_89,"Rx_NE_Lo_ESRD_OD_x_M85_89 -- Male, age 85 - 89, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M90_94,"Rx_NE_Lo_ESRD_OD_x_M90_94 -- Male, age 90 - 94, concurrently ESRD, originally disabled",2.183
+Rx_NE_Lo_ESRD_OD_x_M95_GT,"Rx_NE_Lo_ESRD_OD_x_M95_GT -- Male, age 95 -, concurrently ESRD, originally disabled",2.183
+Rx_NE_LTI_NESRD_NOD_x_F0_34,"Rx_NE_LTI_NESRD_NOD_x_F0_34 -- Female, age 0 - 34, not concurrently ESRD, not originally disabled",3.447
+Rx_NE_LTI_NESRD_NOD_x_F35_44,"Rx_NE_LTI_NESRD_NOD_x_F35_44 -- Female, age 35 - 44, not concurrently ESRD, not originally disabled",3.447
+Rx_NE_LTI_NESRD_NOD_x_F45_54,"Rx_NE_LTI_NESRD_NOD_x_F45_54 -- Female, age 45 - 54, not concurrently ESRD, not originally disabled",3.447
+Rx_NE_LTI_NESRD_NOD_x_F55_59,"Rx_NE_LTI_NESRD_NOD_x_F55_59 -- Female, age 55 - 59, not concurrently ESRD, not originally disabled",2.69
+Rx_NE_LTI_NESRD_NOD_x_F60_64,"Rx_NE_LTI_NESRD_NOD_x_F60_64 -- Female, age 60 - 64, not concurrently ESRD, not originally disabled",2.49
+Rx_NE_LTI_NESRD_NOD_x_F65,"Rx_NE_LTI_NESRD_NOD_x_F65 -- Female, age 65, not concurrently ESRD, not originally disabled",2.651
+Rx_NE_LTI_NESRD_NOD_x_F66,"Rx_NE_LTI_NESRD_NOD_x_F66 -- Female, age 66, not concurrently ESRD, not originally disabled",2.651
+Rx_NE_LTI_NESRD_NOD_x_F67,"Rx_NE_LTI_NESRD_NOD_x_F67 -- Female, age 67, not concurrently ESRD, not originally disabled",1.929
+Rx_NE_LTI_NESRD_NOD_x_F68,"Rx_NE_LTI_NESRD_NOD_x_F68 -- Female, age 68, not concurrently ESRD, not originally disabled",1.929
+Rx_NE_LTI_NESRD_NOD_x_F69,"Rx_NE_LTI_NESRD_NOD_x_F69 -- Female, age 69, not concurrently ESRD, not originally disabled",1.451
+Rx_NE_LTI_NESRD_NOD_x_F70_74,"Rx_NE_LTI_NESRD_NOD_x_F70_74 -- Female, age 70 - 74, not concurrently ESRD, not originally disabled",1.451
+Rx_NE_LTI_NESRD_NOD_x_F75_79,"Rx_NE_LTI_NESRD_NOD_x_F75_79 -- Female, age 75 - 79, not concurrently ESRD, not originally disabled",1.451
+Rx_NE_LTI_NESRD_NOD_x_F80_84,"Rx_NE_LTI_NESRD_NOD_x_F80_84 -- Female, age 80 - 84, not concurrently ESRD, not originally disabled",0.925
+Rx_NE_LTI_NESRD_NOD_x_F85_89,"Rx_NE_LTI_NESRD_NOD_x_F85_89 -- Female, age 85 - 89, not concurrently ESRD, not originally disabled",0.925
+Rx_NE_LTI_NESRD_NOD_x_F90_94,"Rx_NE_LTI_NESRD_NOD_x_F90_94 -- Female, age 90 - 94, not concurrently ESRD, not originally disabled",0.491
+Rx_NE_LTI_NESRD_NOD_x_F95_GT,"Rx_NE_LTI_NESRD_NOD_x_F95_GT -- Female, age 95 -, not concurrently ESRD, not originally disabled",0.491
+Rx_NE_LTI_NESRD_NOD_x_M0_34,"Rx_NE_LTI_NESRD_NOD_x_M0_34 -- Male, age 0 - 34, not concurrently ESRD, not originally disabled",2.974
+Rx_NE_LTI_NESRD_NOD_x_M35_44,"Rx_NE_LTI_NESRD_NOD_x_M35_44 -- Male, age 35 - 44, not concurrently ESRD, not originally disabled",2.974
+Rx_NE_LTI_NESRD_NOD_x_M45_54,"Rx_NE_LTI_NESRD_NOD_x_M45_54 -- Male, age 45 - 54, not concurrently ESRD, not originally disabled",2.651
+Rx_NE_LTI_NESRD_NOD_x_M55_59,"Rx_NE_LTI_NESRD_NOD_x_M55_59 -- Male, age 55 - 59, not concurrently ESRD, not originally disabled",2.318
+Rx_NE_LTI_NESRD_NOD_x_M60_64,"Rx_NE_LTI_NESRD_NOD_x_M60_64 -- Male, age 60 - 64, not concurrently ESRD, not originally disabled",1.996
+Rx_NE_LTI_NESRD_NOD_x_M65,"Rx_NE_LTI_NESRD_NOD_x_M65 -- Male, age 65, not concurrently ESRD, not originally disabled",2.052
+Rx_NE_LTI_NESRD_NOD_x_M66,"Rx_NE_LTI_NESRD_NOD_x_M66 -- Male, age 66, not concurrently ESRD, not originally disabled",2.052
+Rx_NE_LTI_NESRD_NOD_x_M67,"Rx_NE_LTI_NESRD_NOD_x_M67 -- Male, age 67, not concurrently ESRD, not originally disabled",1.759
+Rx_NE_LTI_NESRD_NOD_x_M68,"Rx_NE_LTI_NESRD_NOD_x_M68 -- Male, age 68, not concurrently ESRD, not originally disabled",1.759
+Rx_NE_LTI_NESRD_NOD_x_M69,"Rx_NE_LTI_NESRD_NOD_x_M69 -- Male, age 69, not concurrently ESRD, not originally disabled",1.547
+Rx_NE_LTI_NESRD_NOD_x_M70_74,"Rx_NE_LTI_NESRD_NOD_x_M70_74 -- Male, age 70 - 74, not concurrently ESRD, not originally disabled",1.547
+Rx_NE_LTI_NESRD_NOD_x_M75_79,"Rx_NE_LTI_NESRD_NOD_x_M75_79 -- Male, age 75 - 79, not concurrently ESRD, not originally disabled",1.155
+Rx_NE_LTI_NESRD_NOD_x_M80_84,"Rx_NE_LTI_NESRD_NOD_x_M80_84 -- Male, age 80 - 84, not concurrently ESRD, not originally disabled",1.155
+Rx_NE_LTI_NESRD_NOD_x_M85_89,"Rx_NE_LTI_NESRD_NOD_x_M85_89 -- Male, age 85 - 89, not concurrently ESRD, not originally disabled",1.155
+Rx_NE_LTI_NESRD_NOD_x_M90_94,"Rx_NE_LTI_NESRD_NOD_x_M90_94 -- Male, age 90 - 94, not concurrently ESRD, not originally disabled",0.752
+Rx_NE_LTI_NESRD_NOD_x_M95_GT,"Rx_NE_LTI_NESRD_NOD_x_M95_GT -- Male, age 95 -, not concurrently ESRD, not originally disabled",0.399
+Rx_NE_LTI_ESRD_NOD_x_F0_34,"Rx_NE_LTI_ESRD_NOD_x_F0_34 -- Female, age 0 - 34, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F35_44,"Rx_NE_LTI_ESRD_NOD_x_F35_44 -- Female, age 35 - 44, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F45_54,"Rx_NE_LTI_ESRD_NOD_x_F45_54 -- Female, age 45 - 54, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F55_59,"Rx_NE_LTI_ESRD_NOD_x_F55_59 -- Female, age 55 - 59, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F60_64,"Rx_NE_LTI_ESRD_NOD_x_F60_64 -- Female, age 60 - 64, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F65,"Rx_NE_LTI_ESRD_NOD_x_F65 -- Female, age 65, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F66,"Rx_NE_LTI_ESRD_NOD_x_F66 -- Female, age 66, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F67,"Rx_NE_LTI_ESRD_NOD_x_F67 -- Female, age 67, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F68,"Rx_NE_LTI_ESRD_NOD_x_F68 -- Female, age 68, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F69,"Rx_NE_LTI_ESRD_NOD_x_F69 -- Female, age 69, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F70_74,"Rx_NE_LTI_ESRD_NOD_x_F70_74 -- Female, age 70 - 74, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F75_79,"Rx_NE_LTI_ESRD_NOD_x_F75_79 -- Female, age 75 - 79, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F80_84,"Rx_NE_LTI_ESRD_NOD_x_F80_84 -- Female, age 80 - 84, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F85_89,"Rx_NE_LTI_ESRD_NOD_x_F85_89 -- Female, age 85 - 89, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F90_94,"Rx_NE_LTI_ESRD_NOD_x_F90_94 -- Female, age 90 - 94, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_F95_GT,"Rx_NE_LTI_ESRD_NOD_x_F95_GT -- Female, age 95 -, concurrently ESRD, not originally disabled",2.481
+Rx_NE_LTI_ESRD_NOD_x_M0_34,"Rx_NE_LTI_ESRD_NOD_x_M0_34 -- Male, age 0 - 34, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M35_44,"Rx_NE_LTI_ESRD_NOD_x_M35_44 -- Male, age 35 - 44, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M45_54,"Rx_NE_LTI_ESRD_NOD_x_M45_54 -- Male, age 45 - 54, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M55_59,"Rx_NE_LTI_ESRD_NOD_x_M55_59 -- Male, age 55 - 59, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M60_64,"Rx_NE_LTI_ESRD_NOD_x_M60_64 -- Male, age 60 - 64, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M65,"Rx_NE_LTI_ESRD_NOD_x_M65 -- Male, age 65, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M66,"Rx_NE_LTI_ESRD_NOD_x_M66 -- Male, age 66, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M67,"Rx_NE_LTI_ESRD_NOD_x_M67 -- Male, age 67, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M68,"Rx_NE_LTI_ESRD_NOD_x_M68 -- Male, age 68, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M69,"Rx_NE_LTI_ESRD_NOD_x_M69 -- Male, age 69, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M70_74,"Rx_NE_LTI_ESRD_NOD_x_M70_74 -- Male, age 70 - 74, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M75_79,"Rx_NE_LTI_ESRD_NOD_x_M75_79 -- Male, age 75 - 79, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M80_84,"Rx_NE_LTI_ESRD_NOD_x_M80_84 -- Male, age 80 - 84, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M85_89,"Rx_NE_LTI_ESRD_NOD_x_M85_89 -- Male, age 85 - 89, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M90_94,"Rx_NE_LTI_ESRD_NOD_x_M90_94 -- Male, age 90 - 94, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_ESRD_NOD_x_M95_GT,"Rx_NE_LTI_ESRD_NOD_x_M95_GT -- Male, age 95 -, concurrently ESRD, not originally disabled",2.316
+Rx_NE_LTI_NESRD_OD_x_F65,"Rx_NE_LTI_NESRD_OD_x_F65 -- Female, age 65, not concurrently ESRD, originally disabled",2.651
+Rx_NE_LTI_NESRD_OD_x_F66,"Rx_NE_LTI_NESRD_OD_x_F66 -- Female, age 66, not concurrently ESRD, originally disabled",2.651
+Rx_NE_LTI_NESRD_OD_x_F67,"Rx_NE_LTI_NESRD_OD_x_F67 -- Female, age 67, not concurrently ESRD, originally disabled",1.929
+Rx_NE_LTI_NESRD_OD_x_F68,"Rx_NE_LTI_NESRD_OD_x_F68 -- Female, age 68, not concurrently ESRD, originally disabled",1.929
+Rx_NE_LTI_NESRD_OD_x_F69,"Rx_NE_LTI_NESRD_OD_x_F69 -- Female, age 69, not concurrently ESRD, originally disabled",1.451
+Rx_NE_LTI_NESRD_OD_x_F70_74,"Rx_NE_LTI_NESRD_OD_x_F70_74 -- Female, age 70 - 74, not concurrently ESRD, originally disabled",1.451
+Rx_NE_LTI_NESRD_OD_x_F75_79,"Rx_NE_LTI_NESRD_OD_x_F75_79 -- Female, age 75 - 79, not concurrently ESRD, originally disabled",1.451
+Rx_NE_LTI_NESRD_OD_x_F80_84,"Rx_NE_LTI_NESRD_OD_x_F80_84 -- Female, age 80 - 84, not concurrently ESRD, originally disabled",0.925
+Rx_NE_LTI_NESRD_OD_x_F85_89,"Rx_NE_LTI_NESRD_OD_x_F85_89 -- Female, age 85 - 89, not concurrently ESRD, originally disabled",0.925
+Rx_NE_LTI_NESRD_OD_x_F90_94,"Rx_NE_LTI_NESRD_OD_x_F90_94 -- Female, age 90 - 94, not concurrently ESRD, originally disabled",0.491
+Rx_NE_LTI_NESRD_OD_x_F95_GT,"Rx_NE_LTI_NESRD_OD_x_F95_GT -- Female, age 95 -, not concurrently ESRD, originally disabled",0.491
+Rx_NE_LTI_NESRD_OD_x_M65,"Rx_NE_LTI_NESRD_OD_x_M65 -- Male, age 65, not concurrently ESRD, originally disabled",2.052
+Rx_NE_LTI_NESRD_OD_x_M66,"Rx_NE_LTI_NESRD_OD_x_M66 -- Male, age 66, not concurrently ESRD, originally disabled",2.052
+Rx_NE_LTI_NESRD_OD_x_M67,"Rx_NE_LTI_NESRD_OD_x_M67 -- Male, age 67, not concurrently ESRD, originally disabled",1.759
+Rx_NE_LTI_NESRD_OD_x_M68,"Rx_NE_LTI_NESRD_OD_x_M68 -- Male, age 68, not concurrently ESRD, originally disabled",1.759
+Rx_NE_LTI_NESRD_OD_x_M69,"Rx_NE_LTI_NESRD_OD_x_M69 -- Male, age 69, not concurrently ESRD, originally disabled",1.547
+Rx_NE_LTI_NESRD_OD_x_M70_74,"Rx_NE_LTI_NESRD_OD_x_M70_74 -- Male, age 70 - 74, not concurrently ESRD, originally disabled",1.547
+Rx_NE_LTI_NESRD_OD_x_M75_79,"Rx_NE_LTI_NESRD_OD_x_M75_79 -- Male, age 75 - 79, not concurrently ESRD, originally disabled",1.155
+Rx_NE_LTI_NESRD_OD_x_M80_84,"Rx_NE_LTI_NESRD_OD_x_M80_84 -- Male, age 80 - 84, not concurrently ESRD, originally disabled",1.155
+Rx_NE_LTI_NESRD_OD_x_M85_89,"Rx_NE_LTI_NESRD_OD_x_M85_89 -- Male, age 85 - 89, not concurrently ESRD, originally disabled",1.155
+Rx_NE_LTI_NESRD_OD_x_M90_94,"Rx_NE_LTI_NESRD_OD_x_M90_94 -- Male, age 90 - 94, not concurrently ESRD, originally disabled",0.752
+Rx_NE_LTI_NESRD_OD_x_M95_GT,"Rx_NE_LTI_NESRD_OD_x_M95_GT -- Male, age 95 -, not concurrently ESRD, originally disabled",0.399
+Rx_NE_LTI_ESRD_OD_x_F65,"Rx_NE_LTI_ESRD_OD_x_F65 -- Female, age 65, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F66,"Rx_NE_LTI_ESRD_OD_x_F66 -- Female, age 66, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F67,"Rx_NE_LTI_ESRD_OD_x_F67 -- Female, age 67, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F68,"Rx_NE_LTI_ESRD_OD_x_F68 -- Female, age 68, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F69,"Rx_NE_LTI_ESRD_OD_x_F69 -- Female, age 69, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F70_74,"Rx_NE_LTI_ESRD_OD_x_F70_74 -- Female, age 70 - 74, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F75_79,"Rx_NE_LTI_ESRD_OD_x_F75_79 -- Female, age 75 - 79, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F80_84,"Rx_NE_LTI_ESRD_OD_x_F80_84 -- Female, age 80 - 84, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F85_89,"Rx_NE_LTI_ESRD_OD_x_F85_89 -- Female, age 85 - 89, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F90_94,"Rx_NE_LTI_ESRD_OD_x_F90_94 -- Female, age 90 - 94, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_F95_GT,"Rx_NE_LTI_ESRD_OD_x_F95_GT -- Female, age 95 -, concurrently ESRD, originally disabled",2.481
+Rx_NE_LTI_ESRD_OD_x_M65,"Rx_NE_LTI_ESRD_OD_x_M65 -- Male, age 65, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M66,"Rx_NE_LTI_ESRD_OD_x_M66 -- Male, age 66, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M67,"Rx_NE_LTI_ESRD_OD_x_M67 -- Male, age 67, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M68,"Rx_NE_LTI_ESRD_OD_x_M68 -- Male, age 68, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M69,"Rx_NE_LTI_ESRD_OD_x_M69 -- Male, age 69, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M70_74,"Rx_NE_LTI_ESRD_OD_x_M70_74 -- Male, age 70 - 74, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M75_79,"Rx_NE_LTI_ESRD_OD_x_M75_79 -- Male, age 75 - 79, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M80_84,"Rx_NE_LTI_ESRD_OD_x_M80_84 -- Male, age 80 - 84, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M85_89,"Rx_NE_LTI_ESRD_OD_x_M85_89 -- Male, age 85 - 89, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M90_94,"Rx_NE_LTI_ESRD_OD_x_M90_94 -- Male, age 90 - 94, concurrently ESRD, originally disabled",2.316
+Rx_NE_LTI_ESRD_OD_x_M95_GT,"Rx_NE_LTI_ESRD_OD_x_M95_GT -- Male, age 95 -, concurrently ESRD, originally disabled",2.316

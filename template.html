@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HCC Explorer</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #fff; --border: #dfe3e8; --text: #1c2733;
+    --muted: #5b6b7b; --accent: #0b5fff; --accent-soft: #e8f0ff;
+    --hl: #fff3cd; --chip: #eef1f4;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         background: var(--bg); color: var(--text); font-size: 14px; }
+  header { background: var(--panel); border-bottom: 1px solid var(--border);
+           padding: 14px 22px; position: sticky; top: 0; z-index: 10; }
+  .headrow { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; }
+  header h1 a { color: inherit; text-decoration: none; }
+  header .sub { color: var(--muted); font-weight: normal; font-size: 12.5px; }
+  .modeltoggle { display: inline-flex; border: 1.5px solid var(--border); border-radius: 8px;
+                 overflow: hidden; }
+  .modeltoggle button { border: 0; background: var(--panel); padding: 6px 16px; font-size: 13px;
+                        font-weight: 600; cursor: pointer; color: var(--muted); }
+  .modeltoggle button.active { background: var(--accent); color: #fff; }
+  #search { width: 100%; max-width: 640px; padding: 9px 12px; font-size: 15px;
+            border: 1.5px solid var(--border); border-radius: 8px; outline: none; }
+  #search:focus { border-color: var(--accent); }
+  main { display: flex; gap: 18px; padding: 18px 22px; align-items: flex-start; }
+  #results { width: 360px; flex-shrink: 0; }
+  #detail { flex: 1; min-width: 0; }
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+           padding: 14px 16px; margin-bottom: 14px; }
+  .panel h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em;
+              color: var(--muted); margin: 0 0 8px; }
+  .panel h3 { font-size: 15px; margin: 0 0 6px; }
+  .hit { padding: 7px 9px; border-radius: 7px; cursor: pointer; display: flex; gap: 8px;
+         align-items: baseline; }
+  .hit:hover { background: var(--accent-soft); }
+  .hit .code { font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .hit .desc { color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .muted { color: var(--muted); }
+  .small { font-size: 12.5px; }
+  .chip { display: inline-block; background: var(--chip); border-radius: 6px; padding: 2px 8px;
+          margin: 2px 4px 2px 0; font-size: 12.5px; cursor: pointer; border: 1px solid transparent; }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .chip.family { cursor: default; background: #eef7ee; }
+  .chip.family:hover { border-color: transparent; color: inherit; }
+  a.hcclink { color: var(--accent); cursor: pointer; text-decoration: none; }
+  a.hcclink:hover { text-decoration: underline; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
+  tr.icdrow { cursor: pointer; }
+  tr.icdrow:hover { background: var(--accent-soft); }
+  table.coef { width: auto; min-width: 380px; }
+  table.coef td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  mark { background: var(--hl); padding: 0 1px; border-radius: 2px; }
+  svg .node rect { fill: #fff; stroke: #9fb0c1; stroke-width: 1.2; rx: 7; cursor: pointer; }
+  svg .node:hover rect { stroke: var(--accent); }
+  svg .node.current rect { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; }
+  svg .node text { font-size: 11.5px; pointer-events: none; }
+  svg .node .num { font-weight: 700; font-size: 12.5px; }
+  svg .edge { stroke: #9fb0c1; stroke-width: 1.4; fill: none; }
+  svg .edge.touch { stroke: var(--accent); stroke-width: 2; }
+  .diagram-wrap { overflow-x: auto; }
+  .filter { padding: 6px 9px; border: 1px solid var(--border); border-radius: 7px; width: 260px;
+            margin-bottom: 8px; font-size: 13px; }
+  .home-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+  .group-card { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; cursor: pointer; }
+  .group-card:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .group-card b { font-size: 13.5px; }
+  .stats { display: flex; gap: 24px; flex-wrap: wrap; }
+  .stats div b { font-size: 20px; display: block; }
+  .legend { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
+  @media (max-width: 900px) { main { flex-direction: column; } #results { width: 100%; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="headrow">
+    <h1><a href="#" onclick="goHome(event)">HCC Explorer</a></h1>
+    <span class="modeltoggle" id="modeltoggle"></span>
+    <span class="sub" id="modelnote"></span>
+  </div>
+  <input id="search" type="search" autocomplete="off" spellcheck="false"
+         placeholder="Search ICD code or description, HCC number or label &mdash; e.g. E11.22, diabetes, HCC 37, heart failure">
+</header>
+<main>
+  <div id="results"></div>
+  <div id="detail"></div>
+</main>
+<script>
+const ALL = /*__DATA__*/null;
+const MODEL_KEYS = Object.keys(ALL);
+
+// HCC ids are strings ("37", "35.1" for HHS age-splits); compare numerically
+function hccCmp(a, b) {
+  const [a1, a2 = 0] = String(a).split(".").map(Number);
+  const [b1, b2 = 0] = String(b).split(".").map(Number);
+  return a1 - b1 || a2 - b2;
+}
+
+// ---------- per-model derived indexes ----------
+const modelCache = {};
+function buildModel(key) {
+  if (modelCache[key]) return modelCache[key];
+  const D = ALL[key];
+  const M = { key, title: D.model, short: D.short, unit: D.unit, coefCols: D.coefCols,
+              HCCS: D.hccs, edgesFull: D.edgesFull, edgesReduced: D.edgesReduced, icds: D.icds,
+              kidsFull: {}, parentsFull: {}, parentsRed: {}, directKids: {}, hccIcds: {} };
+  for (const [u, v] of D.edgesFull) { (M.kidsFull[u] ??= []).push(v); (M.parentsFull[v] ??= []).push(u); }
+  for (const [u, v] of D.edgesReduced) { (M.parentsRed[v] ??= []).push(u); (M.directKids[u] ??= new Set()).add(v); }
+
+  // connected components over the hierarchy (undirected)
+  const und = {};
+  for (const [u, v] of D.edgesFull) { (und[u] ??= new Set()).add(v); (und[v] ??= new Set()).add(u); }
+  M.compOf = {}; M.components = [];
+  for (const n of Object.keys(und).sort(hccCmp)) {
+    if (n in M.compOf) continue;
+    const comp = [], stack = [n];
+    while (stack.length) {
+      const x = stack.pop();
+      if (x in M.compOf) continue;
+      M.compOf[x] = M.components.length; comp.push(x);
+      for (const y of und[x]) if (!(y in M.compOf)) stack.push(y);
+    }
+    comp.sort(hccCmp);
+    M.components.push(comp);
+  }
+  M.standalone = Object.keys(D.hccs).filter(n => !(n in M.compOf)).sort(hccCmp);
+  D.icds.forEach(([code, desc, hccs], i) => { for (const h of hccs) (M.hccIcds[h] ??= []).push(i); });
+  return modelCache[key] = M;
+}
+
+let M = buildModel(MODEL_KEYS[0]);
+
+function compName(comp) {
+  const fams = [];
+  for (const n of comp) {
+    const f = M.HCCS[n].family;
+    if (f && !fams.includes(f)) fams.push(f);
+  }
+  return fams.join(" / ") || "Other";
+}
+
+const dotted = c => c.length > 3 ? c.slice(0, 3) + "." + c.slice(3) : c;
+const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
+
+// ---------- model toggle ----------
+function setModel(key) {
+  if (key === M.key) return;
+  const [, kind, arg] = parsedHash();
+  location.hash = kind && arg ? `${key}/${kind}/${arg}` : key;
+}
+function syncToggle() {
+  document.getElementById("modeltoggle").innerHTML = MODEL_KEYS.map(k =>
+    `<button id="btn-${k}" class="${k === M.key ? "active" : ""}" onclick="setModel('${k}')">${esc(ALL[k].short)}</button>`).join("");
+  document.getElementById("modelnote").textContent = M.title;
+}
+
+// ---------- search ----------
+function searchAll(q) {
+  q = q.trim();
+  if (!q) return null;
+  const qLower = q.toLowerCase();
+  const qCode = q.toUpperCase().replace(/\./g, "");
+  const tokens = qLower.split(/\s+/);
+  const hccNumMatch = qLower.match(/^(?:hcc\s*)?(\d{1,3}(?:\.\d+)?)$/);
+
+  const hccHits = [];
+  for (const [num, h] of Object.entries(M.HCCS)) {
+    const hay = h.label.toLowerCase();
+    if ((hccNumMatch && (num === hccNumMatch[1] || num.split(".")[0] === hccNumMatch[1]))
+        || tokens.every(t => hay.includes(t)))
+      hccHits.push(num);
+  }
+  hccHits.sort(hccCmp);
+
+  const icdHits = [];
+  const codeSearch = /^[A-Z][0-9]/.test(qCode);
+  for (let i = 0; i < M.icds.length; i++) {
+    const [code, desc] = M.icds[i];
+    if (codeSearch ? code.startsWith(qCode) : tokens.every(t => desc.toLowerCase().includes(t)))
+      icdHits.push(i);
+  }
+  return { hccHits, icdHits };
+}
+
+function highlight(text, q) {
+  const tokens = q.trim().toLowerCase().split(/\s+/).filter(t => t.length > 1);
+  let out = esc(text);
+  for (const t of tokens)
+    out = out.replace(new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig"), "<mark>$1</mark>");
+  return out;
+}
+
+function renderResults() {
+  const q = document.getElementById("search").value;
+  const el = document.getElementById("results");
+  const r = searchAll(q);
+  if (!r) { el.innerHTML = ""; return; }
+  const { hccHits, icdHits } = r;
+  let html = "";
+  html += `<div class="panel"><h2>${esc(M.short === M.unit ? M.unit : M.short + " " + M.unit)}s (${hccHits.length})</h2>`;
+  html += hccHits.length
+    ? hccHits.map(n => `<div class="hit" onclick="go('hcc/${n}')"><span class="code">${M.unit} ${n}</span><span class="desc">${highlight(M.HCCS[n].label, q)}</span></div>`).join("")
+    : `<div class="muted small">No HCC matches</div>`;
+  html += `</div>`;
+  const cap = 200;
+  html += `<div class="panel"><h2>ICD-10-CM codes (${icdHits.length}${icdHits.length > cap ? `, showing ${cap}` : ""})</h2>`;
+  html += icdHits.length
+    ? icdHits.slice(0, cap).map(i => {
+        const [code, desc] = M.icds[i];
+        return `<div class="hit" onclick="go('icd/${code}')"><span class="code">${highlight(dotted(code), q)}</span><span class="desc">${highlight(desc, q)}</span></div>`;
+      }).join("")
+    : `<div class="muted small">No ICD matches (only the ${M.icds.length.toLocaleString()} codes that map to a ${esc(M.short)} payment ${esc(M.unit)} are searchable)</div>`;
+  html += `</div>`;
+  el.innerHTML = html;
+}
+
+// ---------- hierarchy diagram ----------
+function renderDiagram(compIdx, currentHcc) {
+  const comp = M.components[compIdx];
+  const inComp = new Set(comp);
+  const edges = M.edgesReduced.filter(([u, v]) => inComp.has(u) && inComp.has(v));
+
+  // depth = longest path from roots
+  const depth = Object.fromEntries(comp.map(n => [n, 0]));
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const [u, v] of edges)
+      if (depth[v] < depth[u] + 1) { depth[v] = depth[u] + 1; changed = true; }
+  }
+  const layers = [];
+  for (const n of comp) (layers[depth[n]] ??= []).push(n);
+
+  // barycenter ordering to reduce crossings
+  const pos = {};
+  layers.forEach(l => l.sort(hccCmp));
+  for (let pass = 0; pass < 2; pass++) {
+    for (let d = 1; d < layers.length; d++) {
+      layers[d - 1].forEach((n, i) => pos[n] = i);
+      layers[d].sort((a, b) => {
+        const bc = n => {
+          const ps = (M.parentsRed[n] || []).filter(p => inComp.has(p) && depth[p] === d - 1);
+          return ps.length ? ps.reduce((s, p) => s + pos[p], 0) / ps.length : pos[n] ?? 0;
+        };
+        return bc(a) - bc(b) || hccCmp(a, b);
+      });
+      layers[d].forEach((n, i) => pos[n] = i);
+    }
+  }
+
+  const NW = 178, NH = 46, GX = 22, GY = 46;
+  const maxRow = Math.max(...layers.map(l => l.length));
+  const width = Math.max(maxRow * (NW + GX) + GX, 320);
+  const height = layers.length * (NH + GY) - GY + 24;
+  const xy = {};
+  layers.forEach((l, d) => {
+    const rowW = l.length * (NW + GX) - GX;
+    l.forEach((n, i) => xy[n] = { x: (width - rowW) / 2 + i * (NW + GX), y: 12 + d * (NH + GY) });
+  });
+
+  let svg = `<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">`;
+  svg += `<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9fb0c1"/></marker>
+  <marker id="arrhl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0b5fff"/></marker></defs>`;
+  for (const [u, v] of edges) {
+    const a = xy[u], b = xy[v];
+    const x1 = a.x + NW / 2, y1 = a.y + NH, x2 = b.x + NW / 2, y2 = b.y - 2;
+    const touch = u === currentHcc || v === currentHcc;
+    svg += `<path class="edge${touch ? " touch" : ""}" d="M${x1},${y1} C${x1},${(y1 + y2) / 2} ${x2},${(y1 + y2) / 2} ${x2},${y2}" marker-end="url(#${touch ? "arrhl" : "arr"})"/>`;
+  }
+  for (const n of comp) {
+    const { x, y } = xy[n];
+    const label = M.HCCS[n].label;
+    const shortLabel = label.length > 26 ? label.slice(0, 25).replace(/\s+\S*$/, "") + "…" : label;
+    svg += `<g class="node${n === currentHcc ? " current" : ""}" onclick="go('hcc/${n}')">
+      <rect x="${x}" y="${y}" width="${NW}" height="${NH}" rx="7"><title>${M.unit} ${n}: ${esc(label)}</title></rect>
+      <text class="num" x="${x + 10}" y="${y + 18}">${M.unit} ${n}</text>
+      <text x="${x + 10}" y="${y + 35}" fill="#5b6b7b">${esc(shortLabel)}</text></g>`;
+  }
+  svg += `</svg>`;
+  return `<div class="diagram-wrap">${svg}</div>
+  <div class="legend">A &rarr; B: if A is present, B is zeroed out for payment. Transitively implied arrows are hidden; the lists below are complete. Click any node.</div>`;
+}
+
+// ---------- views ----------
+function hccChips(nums, direct) {
+  return nums.sort(hccCmp).map(n =>
+    `<span class="chip" onclick="go('hcc/${n}')">${M.unit} ${n} &middot; ${esc(M.HCCS[n].label)}${direct && !direct.has(n) ? " <span class='muted'>(via chain)</span>" : ""}</span>`
+  ).join("");
+}
+
+function coefPanel(n, h) {
+  if (!h.coef) return `<div class="panel"><h2>RAF coefficients</h2>
+    <div class="muted small">No direct coefficient for this ${esc(M.unit)} in the ${esc(M.short)} model
+    (it may enter payment only through group or interaction variables).</div></div>`;
+  const cols = M.coefCols;
+  const rows = Object.keys(h.coef).sort();
+  return `<div class="panel"><h2>RAF coefficients &mdash; ${M.unit} ${n}</h2>
+    <table class="coef"><tr><th>${cols.length > 1 ? "Model segment" : "Rate segment"}</th>${cols.map(c => `<th>${esc(c)}</th>`).join("")}</tr>` +
+    rows.map(r => `<tr><td>${esc(r)}</td>${h.coef[r].map(v => `<td class="num">${v == null ? "&ndash;" : v.toFixed(3)}</td>`).join("")}</tr>`).join("") +
+    `</table>
+    <div class="legend">Add-on to the risk score when this HCC survives the hierarchy. Demographic, group, and interaction terms are not shown.</div></div>`;
+}
+
+function viewHcc(n) {
+  const h = M.HCCS[n];
+  if (!h) return viewHome();
+  let html = `<div class="panel"><h3>${M.unit} ${n} &mdash; ${esc(h.label)} <span class="muted small">(${esc(M.short)})</span></h3>
+    <div>${h.family ? `<span class="chip family">${esc(h.family)} hierarchy</span>` : ""}
+    <span class="chip family">${h.icdCount} ICD-10 codes</span></div></div>`;
+
+  if (n in M.compOf) {
+    html += `<div class="panel"><h2>Hierarchy &mdash; ${esc(compName(M.components[M.compOf[n]]))}</h2>${renderDiagram(M.compOf[n], n)}`;
+    const zeroes = M.kidsFull[n] || [], zeroedBy = M.parentsFull[n] || [];
+    if (zeroes.length) html += `<h2 style="margin-top:14px">Zeroes out (${zeroes.length})</h2><div>${hccChips([...zeroes], M.directKids[n])}</div>`;
+    if (zeroedBy.length) html += `<h2 style="margin-top:14px">Zeroed out by (${zeroedBy.length})</h2><div>${hccChips([...zeroedBy])}</div>`;
+    html += `</div>`;
+  } else {
+    html += `<div class="panel"><h2>Hierarchy</h2><div class="muted">Standalone ${esc(M.unit)} &mdash; not part of any hierarchy. It is never zeroed out by, and never zeroes out, another ${esc(M.unit)}.</div></div>`;
+  }
+
+  html += coefPanel(n, h);
+
+  const icds = M.hccIcds[n] || [];
+  html += `<div class="panel"><h2>ICD-10-CM codes mapping to ${M.unit} ${n} (${icds.length})</h2>
+    <input class="filter" placeholder="Filter these codes&hellip;" oninput="filterIcdTable(this.value)">
+    <table id="icdtable"><tr><th>Code</th><th>Description</th><th>Also maps to</th></tr>` +
+    icds.map(i => {
+      const [code, desc, hccs] = M.icds[i];
+      const others = hccs.filter(x => x !== n);
+      return `<tr class="icdrow" data-hay="${esc((code + " " + dotted(code) + " " + desc).toLowerCase())}" onclick="go('icd/${code}')">
+        <td class="code">${dotted(code)}</td><td>${esc(desc)}</td>
+        <td>${others.map(o => `${M.unit} ${o}`).join(", ")}</td></tr>`;
+    }).join("") + `</table></div>`;
+  document.getElementById("detail").innerHTML = html;
+}
+
+function filterIcdTable(q) {
+  q = q.trim().toLowerCase().replace(/\./g, "");
+  for (const tr of document.querySelectorAll("#icdtable tr.icdrow"))
+    tr.style.display = !q || tr.dataset.hay.replace(/\./g, "").includes(q) ? "" : "none";
+}
+
+function otherModelNote(code) {
+  const others = MODEL_KEYS.filter(k => k !== M.key);
+  const mappedIn = others.filter(k => ALL[k].icds.some(x => x[0] === code));
+  const notIn = others.filter(k => !mappedIn.includes(k));
+  const parts = [];
+  if (mappedIn.length)
+    parts.push("also mapped in " + mappedIn.map(k =>
+      `<a class="hcclink" onclick="setModel('${k}')">${esc(ALL[k].short)}</a>`).join(", "));
+  if (notIn.length)
+    parts.push(`not mapped in ${notIn.map(k => esc(ALL[k].short)).join(", ")}`);
+  return parts.join(" &middot; ");
+}
+
+function viewIcd(code) {
+  const i = M.icds.findIndex(x => x[0] === code);
+  if (i < 0) return viewIcdMissing(code);
+  const [c, desc, hccs] = M.icds[i];
+  let html = `<div class="panel"><h3>${dotted(c)} &mdash; ${esc(desc)}</h3>
+    <div class="muted small">ICD-10-CM &middot; maps to ${hccs.length} payment ${esc(M.short === M.unit ? M.unit : M.short + " " + M.unit)}${hccs.length > 1 ? "s" : ""}
+    &middot; ${otherModelNote(code)}</div></div>`;
+  for (const n of hccs) {
+    const h = M.HCCS[n];
+    html += `<div class="panel"><h2><a class="hcclink" onclick="go('hcc/${n}')">${M.unit} ${n} &mdash; ${esc(h.label)}</a></h2>`;
+    if (n in M.compOf) {
+      html += renderDiagram(M.compOf[n], n);
+      const zeroedBy = M.parentsFull[n] || [];
+      if (zeroedBy.length)
+        html += `<div class="small" style="margin-top:8px">This ${esc(M.unit)} is zeroed out when any of these are present: ${hccChips([...zeroedBy])}</div>`;
+    } else {
+      html += `<div class="muted small">Standalone ${esc(M.unit)} &mdash; not part of any hierarchy.</div>`;
+    }
+    html += `</div>`;
+  }
+  document.getElementById("detail").innerHTML = html;
+}
+
+function viewIcdMissing(code) {
+  document.getElementById("detail").innerHTML = `<div class="panel"><h3>${dotted(code)}</h3>
+    <div class="muted">This code does not map to any ${esc(M.short === M.unit ? M.unit : M.short + " " + M.unit)}. ${otherModelNote(code)}</div></div>`;
+}
+
+function viewHome() {
+  let html = `<div class="panel"><div class="stats">
+    <div><b>${Object.keys(M.HCCS).length}</b>payment ${esc(M.unit)}s</div>
+    <div><b>${M.icds.length.toLocaleString()}</b>mapped ICD-10 codes</div>
+    <div><b>${M.edgesFull.length}</b>zero-out rules</div>
+    <div><b>${M.components.length}</b>hierarchy groups</div>
+    <div><b>${M.standalone.length}</b>standalone ${esc(M.unit)}s</div></div>
+    <div class="legend">${esc(M.title)}. Search above, or pick a hierarchy group.</div></div>`;
+  html += `<div class="panel"><h2>Hierarchy groups (all ${M.components.length})</h2><div class="home-groups">` +
+    M.components.map((comp) =>
+      `<div class="group-card" onclick="go('hcc/${comp[0]}')"><b>${esc(compName(comp))}</b>
+       <div class="muted small">${comp.map(n => M.unit + " " + n).join(", ")}</div></div>`).join("") +
+    `</div></div>`;
+  html += `<div class="panel"><h2>Standalone ${esc(M.unit)}s (no hierarchy)</h2><div>` +
+    M.standalone.map(n => `<span class="chip" onclick="go('hcc/${n}')">${M.unit} ${n} &middot; ${esc(M.HCCS[n].label)}</span>`).join("") +
+    `</div></div>`;
+  document.getElementById("detail").innerHTML = html;
+}
+
+// ---------- routing ----------
+// hash = <model>[/<kind>/<arg>], e.g. #v28/hcc/37, #hhs/hcc/35.1, #v24/icd/E1122
+function parsedHash() {
+  const parts = location.hash.replace(/^#/, "").split("/");
+  if (ALL[parts[0]]) return [parts[0], parts[1], parts[2]];
+  return [M.key, parts[0], parts[1]];   // legacy hash without model
+}
+function go(route) { location.hash = `${M.key}/${route}`; }
+function goHome(ev) { ev.preventDefault(); location.hash = M.key; }
+function route() {
+  const [model, kind, arg] = parsedHash();
+  const switched = model !== M.key;
+  M = buildModel(model);
+  syncToggle();
+  if (switched) renderResults();
+  if (kind === "hcc" && arg) viewHcc(arg);
+  else if (kind === "icd" && arg) viewIcd(arg.toUpperCase().replace(/\./g, ""));
+  else viewHome();
+  document.getElementById("detail").scrollIntoView({ block: "start" });
+}
+window.addEventListener("hashchange", route);
+
+const searchBox = document.getElementById("search");
+let debounce;
+searchBox.addEventListener("input", () => {
+  clearTimeout(debounce);
+  debounce = setTimeout(renderResults, 120);
+});
+route();
+</script>
+</body>
+</html>

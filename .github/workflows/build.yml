@@ -50,13 +50,14 @@ jobs:
         with:
           path: _site
 
-  deploy:
-    if: github.ref == 'refs/heads/main'
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+#  this actually deploys onto Github, which costs money.
+#  deploy:
+#    if: github.ref == 'refs/heads/main'
+#    needs: build
+#    runs-on: ubuntu-latest
+#    environment:
+#      name: github-pages
+#      url: ${{ steps.deployment.outputs.page_url }}
+#    steps:
+#      - id: deployment
+#        uses: actions/deploy-pages@v4
